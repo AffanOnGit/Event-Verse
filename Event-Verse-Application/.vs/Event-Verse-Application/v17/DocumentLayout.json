@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\",
+  "WorkspaceRootPath": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse-application\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\attendeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:attendeedashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|C:\\Users\\affan\\Desktop\\Event-Verse-Application\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|C:\\Users\\affan\\Desktop\\Event-Verse-Application\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|C:\\Users\\affan\\Desktop\\Event-Verse-Application\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 107,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,11 +38,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AttendeeDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\AttendeeDashboard.cs",
+              "RelativeDocumentMoniker": "AttendeeDashboard.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\AttendeeDashboard.cs [Design]",
+              "RelativeToolTip": "AttendeeDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:46:23.015Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserLogin.cs",
               "RelativeDocumentMoniker": "UserLogin.cs",
-              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserLogin.cs [Design]",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserLogin.cs [Design]",
               "RelativeToolTip": "UserLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T13:30:09.246Z",
@@ -46,11 +62,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserLogin.cs",
               "RelativeDocumentMoniker": "UserLogin.cs",
-              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserLogin.cs",
               "RelativeToolTip": "UserLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserRegistration.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserRegistration.cs",
               "RelativeDocumentMoniker": "UserRegistration.cs",
-              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserRegistration.cs [Design]",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserRegistration.cs [Design]",
               "RelativeToolTip": "UserRegistration.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T18:33:00.915Z",
@@ -71,16 +87,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserRegistration.cs",
               "RelativeDocumentMoniker": "UserRegistration.cs",
-              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse-Application\\UserRegistration.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\UserRegistration.cs",
               "RelativeToolTip": "UserRegistration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:15:11.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T19:15:11.855Z"
             }
           ]
         }
