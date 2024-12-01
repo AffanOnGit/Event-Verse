@@ -1,0 +1,11 @@
+D:\Github-Repos\Event-Verse\Event-Verse-Application\bin\Debug\Event-Verse-Application.exe.config
+D:\Github-Repos\Event-Verse\Event-Verse-Application\bin\Debug\Event-Verse-Application.exe
+D:\Github-Repos\Event-Verse\Event-Verse-Application\bin\Debug\Event-Verse-Application.pdb
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event-Verse-Application.csproj.AssemblyReference.cache
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Properties.Resources.resources
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.UserLogin.resources
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event-Verse-Application.csproj.GenerateResource.cache
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event-Verse-Application.csproj.CoreCompileInputs.cache
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event-Verse-Application.exe
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event-Verse-Application.pdb
+D:\Github-Repos\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.UserRegistration.resources
