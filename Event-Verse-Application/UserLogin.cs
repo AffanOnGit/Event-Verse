@@ -21,5 +21,14 @@ namespace Event_Verse_Application
         {
             //should close this page and open registration.
         }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            //the information for ID and password is queried. 
+            //according to ID, the user will be directed to their respective dashboard.
+            //for each user type, a different dashboard will be shown.
+            //info for users will be queried and then forwarded to the dashboard. => helps in the profile management section of the Users.
+
+        }
     }
 }

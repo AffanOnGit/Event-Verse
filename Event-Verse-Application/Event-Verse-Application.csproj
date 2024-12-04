@@ -33,6 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +49,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttendeeDashboard.cs">
@@ -51,6 +57,54 @@
     </Compile>
     <Compile Include="AttendeeDashboard.Designer.cs">
       <DependentUpon>AttendeeDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendeePastEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendeePastEvents.Designer.cs">
+      <DependentUpon>AttendeePastEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendeeProfileManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendeeProfileManagement.Designer.cs">
+      <DependentUpon>AttendeeProfileManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AttendeeRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendeeRegistration.Designer.cs">
+      <DependentUpon>AttendeeRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmTicket.Designer.cs">
+      <DependentUpon>ConfirmTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="e-ticketDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="e-ticketDownload.Designer.cs">
+      <DependentUpon>e-ticketDownload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookTicket.Designer.cs">
+      <DependentUpon>BookTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventFeedback.Designer.cs">
+      <DependentUpon>EventFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpcomingEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpcomingEvents.Designer.cs">
+      <DependentUpon>UpcomingEvents.cs</DependentUpon>
     </Compile>
     <Compile Include="UserLogin.cs">
       <SubType>Form</SubType>
@@ -69,6 +123,24 @@
     <EmbeddedResource Include="AttendeeDashboard.resx">
       <DependentUpon>AttendeeDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AttendeePastEvents.resx">
+      <DependentUpon>AttendeePastEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendeeProfileManagement.resx">
+      <DependentUpon>AttendeeProfileManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendeeRegistration.resx">
+      <DependentUpon>AttendeeRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmTicket.resx">
+      <DependentUpon>ConfirmTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="e-ticketDownload.resx">
+      <DependentUpon>e-ticketDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventFeedback.resx">
+      <DependentUpon>EventFeedback.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -78,12 +150,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BookTicket.resx">
+      <DependentUpon>BookTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpcomingEvents.resx">
+      <DependentUpon>UpcomingEvents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserLogin.resx">
       <DependentUpon>UserLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserRegistration.resx">
       <DependentUpon>UserRegistration.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
