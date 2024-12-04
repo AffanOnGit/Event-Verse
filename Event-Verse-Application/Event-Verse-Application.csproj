@@ -52,93 +52,93 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AttendeeDashboard.cs">
+    <Compile Include="Attendee Files\AttendeeDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AttendeeDashboard.Designer.cs">
+    <Compile Include="Attendee Files\AttendeeDashboard.Designer.cs">
       <DependentUpon>AttendeeDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="AttendeePastEvents.cs">
+    <Compile Include="Attendee Files\AttendeePastEvents.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AttendeePastEvents.Designer.cs">
+    <Compile Include="Attendee Files\AttendeePastEvents.Designer.cs">
       <DependentUpon>AttendeePastEvents.cs</DependentUpon>
     </Compile>
-    <Compile Include="AttendeeProfileManagement.cs">
+    <Compile Include="Attendee Files\AttendeeProfileManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AttendeeProfileManagement.Designer.cs">
+    <Compile Include="Attendee Files\AttendeeProfileManagement.Designer.cs">
       <DependentUpon>AttendeeProfileManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="AttendeeRegistration.cs">
+    <Compile Include="Attendee Files\AttendeeRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AttendeeRegistration.Designer.cs">
+    <Compile Include="Attendee Files\AttendeeRegistration.Designer.cs">
       <DependentUpon>AttendeeRegistration.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConfirmTicket.cs">
+    <Compile Include="Attendee Files\ConfirmTicket.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConfirmTicket.Designer.cs">
+    <Compile Include="Attendee Files\ConfirmTicket.Designer.cs">
       <DependentUpon>ConfirmTicket.cs</DependentUpon>
     </Compile>
-    <Compile Include="e-ticketDownload.cs">
+    <Compile Include="Attendee Files\e-ticketDownload.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="e-ticketDownload.Designer.cs">
+    <Compile Include="Attendee Files\e-ticketDownload.Designer.cs">
       <DependentUpon>e-ticketDownload.cs</DependentUpon>
     </Compile>
-    <Compile Include="BookTicket.cs">
+    <Compile Include="Attendee Files\BookTicket.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BookTicket.Designer.cs">
+    <Compile Include="Attendee Files\BookTicket.Designer.cs">
       <DependentUpon>BookTicket.cs</DependentUpon>
     </Compile>
-    <Compile Include="EventFeedback.cs">
+    <Compile Include="Attendee Files\EventFeedback.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EventFeedback.Designer.cs">
+    <Compile Include="Attendee Files\EventFeedback.Designer.cs">
       <DependentUpon>EventFeedback.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpcomingEvents.cs">
+    <Compile Include="Attendee Files\UpcomingEvents.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpcomingEvents.Designer.cs">
+    <Compile Include="Attendee Files\UpcomingEvents.Designer.cs">
       <DependentUpon>UpcomingEvents.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserLogin.cs">
+    <Compile Include="User Files\UserLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserLogin.Designer.cs">
+    <Compile Include="User Files\UserLogin.Designer.cs">
       <DependentUpon>UserLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserRegistration.cs">
+    <Compile Include="User Files\UserRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserRegistration.Designer.cs">
+    <Compile Include="User Files\UserRegistration.Designer.cs">
       <DependentUpon>UserRegistration.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AttendeeDashboard.resx">
+    <EmbeddedResource Include="Attendee Files\AttendeeDashboard.resx">
       <DependentUpon>AttendeeDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AttendeePastEvents.resx">
+    <EmbeddedResource Include="Attendee Files\AttendeePastEvents.resx">
       <DependentUpon>AttendeePastEvents.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AttendeeProfileManagement.resx">
+    <EmbeddedResource Include="Attendee Files\AttendeeProfileManagement.resx">
       <DependentUpon>AttendeeProfileManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AttendeeRegistration.resx">
+    <EmbeddedResource Include="Attendee Files\AttendeeRegistration.resx">
       <DependentUpon>AttendeeRegistration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConfirmTicket.resx">
+    <EmbeddedResource Include="Attendee Files\ConfirmTicket.resx">
       <DependentUpon>ConfirmTicket.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="e-ticketDownload.resx">
+    <EmbeddedResource Include="Attendee Files\e-ticketDownload.resx">
       <DependentUpon>e-ticketDownload.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EventFeedback.resx">
+    <EmbeddedResource Include="Attendee Files\EventFeedback.resx">
       <DependentUpon>EventFeedback.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -150,16 +150,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BookTicket.resx">
+    <EmbeddedResource Include="Attendee Files\BookTicket.resx">
       <DependentUpon>BookTicket.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpcomingEvents.resx">
+    <EmbeddedResource Include="Attendee Files\UpcomingEvents.resx">
       <DependentUpon>UpcomingEvents.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserLogin.resx">
+    <EmbeddedResource Include="User Files\UserLogin.resx">
       <DependentUpon>UserLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserRegistration.resx">
+    <EmbeddedResource Include="User Files\UserRegistration.resx">
       <DependentUpon>UserRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
