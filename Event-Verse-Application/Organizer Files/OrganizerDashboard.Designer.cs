@@ -31,21 +31,21 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrganizerDashboard));
             this.profilePicture = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.eventAnalytics_button = new System.Windows.Forms.Button();
+            this.resourceAndVendorManagement_button = new System.Windows.Forms.Button();
+            this.attendeeManagement_button = new System.Windows.Forms.Button();
+            this.ticketAndSales_button = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.registerComplaint_button = new System.Windows.Forms.Button();
             this.createEvent_button = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.eventSearch_box = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.eventListGridView = new System.Windows.Forms.DataGridView();
-            this.registerComplaint_button = new System.Windows.Forms.Button();
-            this.ticketAndSales_button = new System.Windows.Forms.Button();
             this.deleteSelectedEvent_button = new System.Windows.Forms.Button();
             this.updateSelectedEvent_button = new System.Windows.Forms.Button();
-            this.attendeeManagement_button = new System.Windows.Forms.Button();
-            this.resourceAndVendorManagement_button = new System.Windows.Forms.Button();
-            this.eventAnalytics_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -76,6 +76,66 @@
             this.panel1.Size = new System.Drawing.Size(170, 590);
             this.panel1.TabIndex = 29;
             // 
+            // eventAnalytics_button
+            // 
+            this.eventAnalytics_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eventAnalytics_button.Location = new System.Drawing.Point(1, 385);
+            this.eventAnalytics_button.Name = "eventAnalytics_button";
+            this.eventAnalytics_button.Size = new System.Drawing.Size(166, 52);
+            this.eventAnalytics_button.TabIndex = 12;
+            this.eventAnalytics_button.Text = "Event Analytics";
+            this.eventAnalytics_button.UseVisualStyleBackColor = true;
+            // 
+            // resourceAndVendorManagement_button
+            // 
+            this.resourceAndVendorManagement_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resourceAndVendorManagement_button.Location = new System.Drawing.Point(0, 327);
+            this.resourceAndVendorManagement_button.Name = "resourceAndVendorManagement_button";
+            this.resourceAndVendorManagement_button.Size = new System.Drawing.Size(166, 52);
+            this.resourceAndVendorManagement_button.TabIndex = 11;
+            this.resourceAndVendorManagement_button.Text = "Resource And Vendor Management";
+            this.resourceAndVendorManagement_button.UseVisualStyleBackColor = true;
+            // 
+            // attendeeManagement_button
+            // 
+            this.attendeeManagement_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.attendeeManagement_button.Location = new System.Drawing.Point(2, 269);
+            this.attendeeManagement_button.Name = "attendeeManagement_button";
+            this.attendeeManagement_button.Size = new System.Drawing.Size(166, 52);
+            this.attendeeManagement_button.TabIndex = 10;
+            this.attendeeManagement_button.Text = "Attendee Management";
+            this.attendeeManagement_button.UseVisualStyleBackColor = true;
+            // 
+            // ticketAndSales_button
+            // 
+            this.ticketAndSales_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ticketAndSales_button.Location = new System.Drawing.Point(1, 208);
+            this.ticketAndSales_button.Name = "ticketAndSales_button";
+            this.ticketAndSales_button.Size = new System.Drawing.Size(166, 52);
+            this.ticketAndSales_button.TabIndex = 9;
+            this.ticketAndSales_button.Text = "Tickets and Sales";
+            this.ticketAndSales_button.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(9, 60);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(157, 20);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Organizer Dashboard";
+            // 
+            // registerComplaint_button
+            // 
+            this.registerComplaint_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registerComplaint_button.Location = new System.Drawing.Point(3, 443);
+            this.registerComplaint_button.Name = "registerComplaint_button";
+            this.registerComplaint_button.Size = new System.Drawing.Size(163, 52);
+            this.registerComplaint_button.TabIndex = 6;
+            this.registerComplaint_button.Text = "Register Complaint";
+            this.registerComplaint_button.UseVisualStyleBackColor = true;
+            // 
             // createEvent_button
             // 
             this.createEvent_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,16 +156,6 @@
             this.label2.Size = new System.Drawing.Size(160, 44);
             this.label2.TabIndex = 1;
             this.label2.Text = "Event Verse";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(9, 60);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(157, 20);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Organizer Dashboard";
             // 
             // eventSearch_box
             // 
@@ -151,26 +201,6 @@
             this.eventListGridView.Size = new System.Drawing.Size(730, 380);
             this.eventListGridView.TabIndex = 0;
             // 
-            // registerComplaint_button
-            // 
-            this.registerComplaint_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.registerComplaint_button.Location = new System.Drawing.Point(3, 443);
-            this.registerComplaint_button.Name = "registerComplaint_button";
-            this.registerComplaint_button.Size = new System.Drawing.Size(163, 52);
-            this.registerComplaint_button.TabIndex = 6;
-            this.registerComplaint_button.Text = "Register Complaint";
-            this.registerComplaint_button.UseVisualStyleBackColor = true;
-            // 
-            // ticketAndSales_button
-            // 
-            this.ticketAndSales_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ticketAndSales_button.Location = new System.Drawing.Point(1, 208);
-            this.ticketAndSales_button.Name = "ticketAndSales_button";
-            this.ticketAndSales_button.Size = new System.Drawing.Size(166, 52);
-            this.ticketAndSales_button.TabIndex = 9;
-            this.ticketAndSales_button.Text = "Tickets and Sales";
-            this.ticketAndSales_button.UseVisualStyleBackColor = true;
-            // 
             // deleteSelectedEvent_button
             // 
             this.deleteSelectedEvent_button.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -191,36 +221,6 @@
             this.updateSelectedEvent_button.Text = "Update Selected Event";
             this.updateSelectedEvent_button.UseVisualStyleBackColor = true;
             // 
-            // attendeeManagement_button
-            // 
-            this.attendeeManagement_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attendeeManagement_button.Location = new System.Drawing.Point(2, 269);
-            this.attendeeManagement_button.Name = "attendeeManagement_button";
-            this.attendeeManagement_button.Size = new System.Drawing.Size(166, 52);
-            this.attendeeManagement_button.TabIndex = 10;
-            this.attendeeManagement_button.Text = "Attendee Management";
-            this.attendeeManagement_button.UseVisualStyleBackColor = true;
-            // 
-            // resourceAndVendorManagement_button
-            // 
-            this.resourceAndVendorManagement_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resourceAndVendorManagement_button.Location = new System.Drawing.Point(0, 327);
-            this.resourceAndVendorManagement_button.Name = "resourceAndVendorManagement_button";
-            this.resourceAndVendorManagement_button.Size = new System.Drawing.Size(166, 52);
-            this.resourceAndVendorManagement_button.TabIndex = 11;
-            this.resourceAndVendorManagement_button.Text = "Resource And Vendor Management";
-            this.resourceAndVendorManagement_button.UseVisualStyleBackColor = true;
-            // 
-            // eventAnalytics_button
-            // 
-            this.eventAnalytics_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eventAnalytics_button.Location = new System.Drawing.Point(1, 385);
-            this.eventAnalytics_button.Name = "eventAnalytics_button";
-            this.eventAnalytics_button.Size = new System.Drawing.Size(166, 52);
-            this.eventAnalytics_button.TabIndex = 12;
-            this.eventAnalytics_button.Text = "Event Analytics";
-            this.eventAnalytics_button.UseVisualStyleBackColor = true;
-            // 
             // OrganizerDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -236,6 +236,7 @@
             this.Controls.Add(this.profilePicture);
             this.Name = "OrganizerDashboard";
             this.Text = "OrganizerDashboard";
+            this.Load += new System.EventHandler(this.OrganizerDashboard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
