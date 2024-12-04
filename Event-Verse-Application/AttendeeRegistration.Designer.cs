@@ -100,6 +100,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "AttendeeRegistration";
             this.Text = "AttendeeRegistration";
+            this.Load += new System.EventHandler(this.AttendeeRegistration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

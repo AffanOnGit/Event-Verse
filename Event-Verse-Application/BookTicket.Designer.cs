@@ -252,6 +252,7 @@
             this.Controls.Add(this.label1);
             this.Name = "BookTicket";
             this.Text = "BookTicket";
+            this.Load += new System.EventHandler(this.BookTicket_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.eventsDataGridView)).EndInit();
             this.ResumeLayout(false);

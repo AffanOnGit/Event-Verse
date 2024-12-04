@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.backToDashboard_button = new System.Windows.Forms.Button();
+            this.backToBookTicket_button = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.attendeeID_box = new System.Windows.Forms.TextBox();
@@ -59,16 +59,16 @@
             this.label1.TabIndex = 23;
             this.label1.Text = "Event Verse";
             // 
-            // backToDashboard_button
+            // backToBookTicket_button
             // 
-            this.backToDashboard_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.backToDashboard_button.Location = new System.Drawing.Point(12, 17);
-            this.backToDashboard_button.Name = "backToDashboard_button";
-            this.backToDashboard_button.Size = new System.Drawing.Size(103, 39);
-            this.backToDashboard_button.TabIndex = 24;
-            this.backToDashboard_button.Text = "<-- Go Back";
-            this.backToDashboard_button.UseVisualStyleBackColor = false;
-            this.backToDashboard_button.Click += new System.EventHandler(this.backToDashboard_button_Click);
+            this.backToBookTicket_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.backToBookTicket_button.Location = new System.Drawing.Point(12, 17);
+            this.backToBookTicket_button.Name = "backToBookTicket_button";
+            this.backToBookTicket_button.Size = new System.Drawing.Size(103, 39);
+            this.backToBookTicket_button.TabIndex = 24;
+            this.backToBookTicket_button.Text = "<-- Go Back";
+            this.backToBookTicket_button.UseVisualStyleBackColor = false;
+            this.backToBookTicket_button.Click += new System.EventHandler(this.backToDashboard_button_Click);
             // 
             // pictureBox1
             // 
@@ -218,10 +218,11 @@
             this.Controls.Add(this.attendeeID_box);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.backToDashboard_button);
+            this.Controls.Add(this.backToBookTicket_button);
             this.Controls.Add(this.label1);
             this.Name = "e_ticketDownload";
             this.Text = "e_ticketDownload";
+            this.Load += new System.EventHandler(this.e_ticketDownload_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -231,7 +232,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button backToDashboard_button;
+        private System.Windows.Forms.Button backToBookTicket_button;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox attendeeID_box;

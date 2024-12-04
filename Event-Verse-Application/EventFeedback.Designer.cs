@@ -169,6 +169,7 @@
             this.Controls.Add(this.label1);
             this.Name = "EventFeedback";
             this.Text = "EventFeedback";
+            this.Load += new System.EventHandler(this.EventFeedback_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -8,18 +8,43 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//added the following namesapces:
+using System.Data.SqlClient;
+using System.Threading;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.IO;
+
 namespace Event_Verse_Application
 {
     public partial class UpcomingEvents : Form
     {
+        Thread threadObj;
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-G5900N6\\SQLEXPRESS;Initial Catalog=Event_Verse_DB;Integrated Security=True;TrustServerCertificate=True");
+
         public UpcomingEvents()
         {
             InitializeComponent();
+            //center the form on the screen on startup:
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void openAttendeeDashboard(object obj)
+        {
+            Application.Run(new AttendeeDashboard());
         }
 
         private void backToDashboard_button_Click(object sender, EventArgs e)
         {
             //this will close the current form and open the AttendeeDashboard form
+            this.Close();
+            threadObj = new Thread(openAttendeeDashboard);
+            threadObj.SetApartmentState(ApartmentState.STA);
+            threadObj.Start();
+        }
+
+        private void UpcomingEvents_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -250,9 +250,9 @@
             // profilePicture
             // 
             this.profilePicture.Image = ((System.Drawing.Image)(resources.GetObject("profilePicture.Image")));
-            this.profilePicture.Location = new System.Drawing.Point(915, 12);
+            this.profilePicture.Location = new System.Drawing.Point(932, 12);
             this.profilePicture.Name = "profilePicture";
-            this.profilePicture.Size = new System.Drawing.Size(83, 71);
+            this.profilePicture.Size = new System.Drawing.Size(66, 55);
             this.profilePicture.TabIndex = 21;
             this.profilePicture.TabStop = false;
             this.profilePicture.Click += new System.EventHandler(this.profilePicture_Click);
