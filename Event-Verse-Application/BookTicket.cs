@@ -39,7 +39,8 @@ namespace Event_Verse_Application
         }
 
 
-        //****when user clicks an event 
+        //IMPORTANT:
+        //When user clicks on event in the data grid view, and if the event has been booked but the e-ticket has not been downloaded..then the user is taken to the e-ticket download page directly from the dashboard.
 
 
         private void bookTicketButton_Click(object sender, EventArgs e)

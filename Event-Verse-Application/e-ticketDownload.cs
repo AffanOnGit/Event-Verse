@@ -53,6 +53,8 @@ namespace Event_Verse_Application
         {
             //this will generate QR code based on the ticket details.
             //we need to first store the ticket details in variables and then generate QR code.
+
+            //when the user generates the QR code against the details, i want SQL query to change the attribute value of ticketDownloaded to true. this will be done against the user ID and event ID.
         }
 
         private void e_ticketDownload_Load(object sender, EventArgs e)
