@@ -36,6 +36,7 @@
             this.loginButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.Register_Link = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -89,7 +90,7 @@
             this.loginButton.BackColor = System.Drawing.Color.White;
             this.loginButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginButton.ForeColor = System.Drawing.Color.Teal;
-            this.loginButton.Location = new System.Drawing.Point(134, 262);
+            this.loginButton.Location = new System.Drawing.Point(200, 263);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(116, 35);
             this.loginButton.TabIndex = 6;
@@ -117,12 +118,23 @@
             this.Register_Link.Text = "SIGN UP!";
             this.Register_Link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Register_Link_LinkClicked);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(147, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(114, 25);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "User Sign In";
+            // 
             // UserLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(392, 410);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.Register_Link);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.loginButton);
@@ -151,6 +163,7 @@
         private System.Windows.Forms.Button loginButton;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.LinkLabel Register_Link;
+        private System.Windows.Forms.Label label2;
     }
 }
 

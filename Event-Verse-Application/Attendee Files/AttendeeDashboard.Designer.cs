@@ -50,6 +50,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.registeredEventsView = new System.Windows.Forms.DataGridView();
             this.profilePicture = new System.Windows.Forms.PictureBox();
+            this.registerComplaint_button = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.registeredEventsView)).BeginInit();
@@ -102,6 +103,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.registerComplaint_button);
             this.panel1.Controls.Add(this.upcomingEvents_button);
             this.panel1.Controls.Add(this.eventBooking_button);
             this.panel1.Controls.Add(this.giveFeedback_button);
@@ -257,6 +259,17 @@
             this.profilePicture.TabStop = false;
             this.profilePicture.Click += new System.EventHandler(this.profilePicture_Click);
             // 
+            // registerComplaint_button
+            // 
+            this.registerComplaint_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registerComplaint_button.Location = new System.Drawing.Point(3, 340);
+            this.registerComplaint_button.Name = "registerComplaint_button";
+            this.registerComplaint_button.Size = new System.Drawing.Size(163, 52);
+            this.registerComplaint_button.TabIndex = 6;
+            this.registerComplaint_button.Text = "Register Complaint";
+            this.registerComplaint_button.UseVisualStyleBackColor = true;
+            this.registerComplaint_button.Click += new System.EventHandler(this.registerComplaint_button_Click);
+            // 
             // AttendeeDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -315,5 +328,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView registeredEventsView;
         private System.Windows.Forms.PictureBox profilePicture;
+        private System.Windows.Forms.Button registerComplaint_button;
     }
 }

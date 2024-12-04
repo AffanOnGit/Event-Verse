@@ -47,6 +47,7 @@
             this.preference_box = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.pastEventsLink = new System.Windows.Forms.LinkLabel();
+            this.logOut_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -166,7 +167,7 @@
             this.updateInfo_button.BackColor = System.Drawing.Color.RoyalBlue;
             this.updateInfo_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateInfo_button.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.updateInfo_button.Location = new System.Drawing.Point(232, 408);
+            this.updateInfo_button.Location = new System.Drawing.Point(239, 408);
             this.updateInfo_button.Name = "updateInfo_button";
             this.updateInfo_button.Size = new System.Drawing.Size(94, 30);
             this.updateInfo_button.TabIndex = 66;
@@ -214,11 +215,25 @@
             this.pastEventsLink.Text = "View Past Events";
             this.pastEventsLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.pastEventsLink_LinkClicked);
             // 
+            // logOut_button
+            // 
+            this.logOut_button.BackColor = System.Drawing.Color.LightCoral;
+            this.logOut_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logOut_button.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.logOut_button.Location = new System.Drawing.Point(12, 372);
+            this.logOut_button.Name = "logOut_button";
+            this.logOut_button.Size = new System.Drawing.Size(87, 30);
+            this.logOut_button.TabIndex = 71;
+            this.logOut_button.Text = "Log Out";
+            this.logOut_button.UseVisualStyleBackColor = false;
+            this.logOut_button.Click += new System.EventHandler(this.logOut_button_Click);
+            // 
             // AttendeeProfileManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(338, 450);
+            this.Controls.Add(this.logOut_button);
             this.Controls.Add(this.pastEventsLink);
             this.Controls.Add(this.preference_box);
             this.Controls.Add(this.label6);
@@ -266,5 +281,6 @@
         private System.Windows.Forms.TextBox preference_box;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel pastEventsLink;
+        private System.Windows.Forms.Button logOut_button;
     }
 }

@@ -38,6 +38,10 @@ namespace Event_Verse_Application
         {
             Application.Run(new AttendeePastEvents());
         }
+        private void openUserLogin(object obj)
+        {
+            Application.Run(new UserLogin());
+        }
 
         private void updateInfo_button_Click(object sender, EventArgs e)
         {
@@ -74,6 +78,15 @@ namespace Event_Verse_Application
         private void AttendeeProfileManagement_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void logOut_button_Click(object sender, EventArgs e)
+        {
+            //this will log out the user and take them to the login page.
+            this.Close();
+            threadObj = new Thread(openUserLogin);
+            threadObj.SetApartmentState(ApartmentState.STA);
+            threadObj.Start();
         }
     }
 }

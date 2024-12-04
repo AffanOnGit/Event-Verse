@@ -52,6 +52,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attendee Files\AttendeeComplaintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendee Files\AttendeeComplaintForm.Designer.cs">
+      <DependentUpon>AttendeeComplaintForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Attendee Files\AttendeeDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     <Compile Include="User Files\UserRegistration.Designer.cs">
       <DependentUpon>UserRegistration.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Attendee Files\AttendeeComplaintForm.resx">
+      <DependentUpon>AttendeeComplaintForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Attendee Files\AttendeeDashboard.resx">
       <DependentUpon>AttendeeDashboard.cs</DependentUpon>
     </EmbeddedResource>

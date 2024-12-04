@@ -13,6 +13,8 @@ using System.Data.SqlClient;
 using System.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System.IO;
+using Event_Verse_Application.Attendee_Files;
+
 
 namespace Event_Verse_Application
 {
@@ -51,6 +53,10 @@ namespace Event_Verse_Application
         {
             Application.Run(new AttendeeProfileManagement());
         }
+        private void openComplaintForm(object obj)
+        {
+            Application.Run(new AttendeeComplaintForm());
+        }
 
 
         private void upcomingEvents_button_Click(object sender, EventArgs e)
@@ -88,7 +94,16 @@ namespace Event_Verse_Application
         {
             //this will take the user to Profile page
             this.Close();
-            threadObj = new Thread(openFeedback);
+            threadObj = new Thread(openProfile);
+            threadObj.SetApartmentState(ApartmentState.STA);
+            threadObj.Start();
+        }
+
+        private void registerComplaint_button_Click(object sender, EventArgs e)
+        {
+            //this will open the complaint form.
+            this.Close();
+            threadObj = new Thread(openComplaintForm);
             threadObj.SetApartmentState(ApartmentState.STA);
             threadObj.Start();
         }
