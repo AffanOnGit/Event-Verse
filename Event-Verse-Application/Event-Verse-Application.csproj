@@ -112,6 +112,30 @@
     <Compile Include="Attendee Files\UpcomingEvents.Designer.cs">
       <DependentUpon>UpcomingEvents.cs</DependentUpon>
     </Compile>
+    <Compile Include="Organizer Files\AttendeeManagament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\AttendeeManagament.Designer.cs">
+      <DependentUpon>AttendeeManagament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\CreateEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\CreateEvent.Designer.cs">
+      <DependentUpon>CreateEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\EventAnalytics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\EventAnalytics.Designer.cs">
+      <DependentUpon>EventAnalytics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\OrganizerComplaintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\OrganizerComplaintForm.Designer.cs">
+      <DependentUpon>OrganizerComplaintForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Organizer Files\OrganizerDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +147,24 @@
     </Compile>
     <Compile Include="Organizer Files\OrganizerRegistration.Designer.cs">
       <DependentUpon>OrganizerRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\ResourceAndVendorManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\ResourceAndVendorManagement.Designer.cs">
+      <DependentUpon>ResourceAndVendorManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\TicketAndSalesManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\TicketAndSalesManagement.Designer.cs">
+      <DependentUpon>TicketAndSalesManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\UpdateEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\UpdateEvent.Designer.cs">
+      <DependentUpon>UpdateEvent.cs</DependentUpon>
     </Compile>
     <Compile Include="User Files\UserLogin.cs">
       <SubType>Form</SubType>
