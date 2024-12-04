@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AttendeeDashboard));
-            this.label1 = new System.Windows.Forms.Label();
-            this.upcomingEvents_button = new System.Windows.Forms.Button();
-            this.eventBooking_button = new System.Windows.Forms.Button();
-            this.giveFeedback_button = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.eventSearch_box = new System.Windows.Forms.TextBox();
             this.date_filter = new System.Windows.Forms.CheckBox();
@@ -50,68 +45,18 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.registeredEventsView = new System.Windows.Forms.DataGridView();
             this.profilePicture = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.giveFeedback_button = new System.Windows.Forms.Button();
+            this.eventBooking_button = new System.Windows.Forms.Button();
+            this.upcomingEvents_button = new System.Windows.Forms.Button();
             this.registerComplaint_button = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.registeredEventsView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Mistral", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(3, 2);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 44);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Event Verse";
-            // 
-            // upcomingEvents_button
-            // 
-            this.upcomingEvents_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.upcomingEvents_button.Location = new System.Drawing.Point(0, 166);
-            this.upcomingEvents_button.Name = "upcomingEvents_button";
-            this.upcomingEvents_button.Size = new System.Drawing.Size(166, 52);
-            this.upcomingEvents_button.TabIndex = 2;
-            this.upcomingEvents_button.Text = "Upcoming Events";
-            this.upcomingEvents_button.UseVisualStyleBackColor = true;
-            this.upcomingEvents_button.Click += new System.EventHandler(this.upcomingEvents_button_Click);
-            // 
-            // eventBooking_button
-            // 
-            this.eventBooking_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eventBooking_button.Location = new System.Drawing.Point(0, 224);
-            this.eventBooking_button.Name = "eventBooking_button";
-            this.eventBooking_button.Size = new System.Drawing.Size(166, 52);
-            this.eventBooking_button.TabIndex = 4;
-            this.eventBooking_button.Text = "Event Booking";
-            this.eventBooking_button.UseVisualStyleBackColor = true;
-            this.eventBooking_button.Click += new System.EventHandler(this.eventBooking_button_Click);
-            // 
-            // giveFeedback_button
-            // 
-            this.giveFeedback_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.giveFeedback_button.Location = new System.Drawing.Point(3, 282);
-            this.giveFeedback_button.Name = "giveFeedback_button";
-            this.giveFeedback_button.Size = new System.Drawing.Size(163, 52);
-            this.giveFeedback_button.TabIndex = 5;
-            this.giveFeedback_button.Text = "Give Feedback";
-            this.giveFeedback_button.UseVisualStyleBackColor = true;
-            this.giveFeedback_button.Click += new System.EventHandler(this.giveFeedback_button_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.registerComplaint_button);
-            this.panel1.Controls.Add(this.upcomingEvents_button);
-            this.panel1.Controls.Add(this.eventBooking_button);
-            this.panel1.Controls.Add(this.giveFeedback_button);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(170, 590);
-            this.panel1.TabIndex = 6;
             // 
             // label2
             // 
@@ -227,7 +172,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(420, 21);
+            this.label6.Location = new System.Drawing.Point(189, 21);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(233, 37);
             this.label6.TabIndex = 19;
@@ -259,6 +204,50 @@
             this.profilePicture.TabStop = false;
             this.profilePicture.Click += new System.EventHandler(this.profilePicture_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Mistral", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Teal;
+            this.label1.Location = new System.Drawing.Point(3, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 44);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Event Verse";
+            // 
+            // giveFeedback_button
+            // 
+            this.giveFeedback_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.giveFeedback_button.Location = new System.Drawing.Point(3, 282);
+            this.giveFeedback_button.Name = "giveFeedback_button";
+            this.giveFeedback_button.Size = new System.Drawing.Size(163, 52);
+            this.giveFeedback_button.TabIndex = 5;
+            this.giveFeedback_button.Text = "Give Feedback";
+            this.giveFeedback_button.UseVisualStyleBackColor = true;
+            this.giveFeedback_button.Click += new System.EventHandler(this.giveFeedback_button_Click);
+            // 
+            // eventBooking_button
+            // 
+            this.eventBooking_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eventBooking_button.Location = new System.Drawing.Point(0, 224);
+            this.eventBooking_button.Name = "eventBooking_button";
+            this.eventBooking_button.Size = new System.Drawing.Size(166, 52);
+            this.eventBooking_button.TabIndex = 4;
+            this.eventBooking_button.Text = "Event Booking";
+            this.eventBooking_button.UseVisualStyleBackColor = true;
+            this.eventBooking_button.Click += new System.EventHandler(this.eventBooking_button_Click);
+            // 
+            // upcomingEvents_button
+            // 
+            this.upcomingEvents_button.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.upcomingEvents_button.Location = new System.Drawing.Point(0, 166);
+            this.upcomingEvents_button.Name = "upcomingEvents_button";
+            this.upcomingEvents_button.Size = new System.Drawing.Size(166, 52);
+            this.upcomingEvents_button.TabIndex = 2;
+            this.upcomingEvents_button.Text = "Upcoming Events";
+            this.upcomingEvents_button.UseVisualStyleBackColor = true;
+            this.upcomingEvents_button.Click += new System.EventHandler(this.upcomingEvents_button_Click);
+            // 
             // registerComplaint_button
             // 
             this.registerComplaint_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -269,6 +258,29 @@
             this.registerComplaint_button.Text = "Register Complaint";
             this.registerComplaint_button.UseVisualStyleBackColor = true;
             this.registerComplaint_button.Click += new System.EventHandler(this.registerComplaint_button_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.registerComplaint_button);
+            this.panel1.Controls.Add(this.upcomingEvents_button);
+            this.panel1.Controls.Add(this.eventBooking_button);
+            this.panel1.Controls.Add(this.giveFeedback_button);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(1, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(170, 590);
+            this.panel1.TabIndex = 6;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(7, 54);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(154, 20);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Attendee Dashboard";
             // 
             // AttendeeDashboard
             // 
@@ -295,23 +307,17 @@
             this.Name = "AttendeeDashboard";
             this.Text = "AttendeeDashboard";
             this.Load += new System.EventHandler(this.AttendeeDashboard_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.registeredEventsView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button upcomingEvents_button;
-        private System.Windows.Forms.Button eventBooking_button;
-        private System.Windows.Forms.Button giveFeedback_button;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox eventSearch_box;
         private System.Windows.Forms.CheckBox date_filter;
@@ -328,6 +334,12 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView registeredEventsView;
         private System.Windows.Forms.PictureBox profilePicture;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button giveFeedback_button;
+        private System.Windows.Forms.Button eventBooking_button;
+        private System.Windows.Forms.Button upcomingEvents_button;
         private System.Windows.Forms.Button registerComplaint_button;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\organizer files\\organizerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:organizer files\\organizerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 107,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrganizerDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\OrganizerDashboard.cs",
+              "RelativeDocumentMoniker": "Organizer Files\\OrganizerDashboard.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\OrganizerDashboard.cs [Design]",
+              "RelativeToolTip": "Organizer Files\\OrganizerDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:59:05.611Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

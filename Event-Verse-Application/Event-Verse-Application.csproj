@@ -112,6 +112,18 @@
     <Compile Include="Attendee Files\UpcomingEvents.Designer.cs">
       <DependentUpon>UpcomingEvents.cs</DependentUpon>
     </Compile>
+    <Compile Include="Organizer Files\OrganizerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\OrganizerDashboard.Designer.cs">
+      <DependentUpon>OrganizerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\OrganizerRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\OrganizerRegistration.Designer.cs">
+      <DependentUpon>OrganizerRegistration.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Files\UserLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +161,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Attendee Files\EventFeedback.resx">
       <DependentUpon>EventFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\OrganizerDashboard.resx">
+      <DependentUpon>OrganizerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\OrganizerRegistration.resx">
+      <DependentUpon>OrganizerRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
