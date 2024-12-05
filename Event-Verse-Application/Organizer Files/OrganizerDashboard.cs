@@ -87,6 +87,7 @@ namespace Event_Verse_Application.Organizer_Files
         private void createEvent_button_Click(object sender, EventArgs e)
         {
             //store the organizer id in a variable and pass it on to the create event form.
+                //we need to check if this organizer has been apporoved by the admin to perfrom CRUD on events
 
             //open CreateEvent form.
             this.Close();
