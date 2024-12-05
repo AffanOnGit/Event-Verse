@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrganizerDashboard));
             this.profilePicture = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.eventAnalytics_button = new System.Windows.Forms.Button();
+            this.eventFeedbackView_button = new System.Windows.Forms.Button();
             this.resourceAndVendorManagement_button = new System.Windows.Forms.Button();
             this.attendeeManagement_button = new System.Windows.Forms.Button();
             this.ticketAndSales_button = new System.Windows.Forms.Button();
@@ -46,6 +46,15 @@
             this.eventListGridView = new System.Windows.Forms.DataGridView();
             this.deleteSelectedEvent_button = new System.Windows.Forms.Button();
             this.updateSelectedEvent_button = new System.Windows.Forms.Button();
+            this.ticket_filter = new System.Windows.Forms.CheckBox();
+            this.category_filter = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.name_filter = new System.Windows.Forms.CheckBox();
+            this.toDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.fromDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.date_filter = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.profilePicture)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -60,10 +69,11 @@
             this.profilePicture.Size = new System.Drawing.Size(66, 55);
             this.profilePicture.TabIndex = 28;
             this.profilePicture.TabStop = false;
+            this.profilePicture.Click += new System.EventHandler(this.profilePicture_Click);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.eventAnalytics_button);
+            this.panel1.Controls.Add(this.eventFeedbackView_button);
             this.panel1.Controls.Add(this.resourceAndVendorManagement_button);
             this.panel1.Controls.Add(this.attendeeManagement_button);
             this.panel1.Controls.Add(this.ticketAndSales_button);
@@ -76,15 +86,16 @@
             this.panel1.Size = new System.Drawing.Size(170, 590);
             this.panel1.TabIndex = 29;
             // 
-            // eventAnalytics_button
+            // eventFeedbackView_button
             // 
-            this.eventAnalytics_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eventAnalytics_button.Location = new System.Drawing.Point(1, 385);
-            this.eventAnalytics_button.Name = "eventAnalytics_button";
-            this.eventAnalytics_button.Size = new System.Drawing.Size(166, 52);
-            this.eventAnalytics_button.TabIndex = 12;
-            this.eventAnalytics_button.Text = "Event Analytics";
-            this.eventAnalytics_button.UseVisualStyleBackColor = true;
+            this.eventFeedbackView_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eventFeedbackView_button.Location = new System.Drawing.Point(1, 385);
+            this.eventFeedbackView_button.Name = "eventFeedbackView_button";
+            this.eventFeedbackView_button.Size = new System.Drawing.Size(166, 52);
+            this.eventFeedbackView_button.TabIndex = 12;
+            this.eventFeedbackView_button.Text = "Event Feedback View";
+            this.eventFeedbackView_button.UseVisualStyleBackColor = true;
+            this.eventFeedbackView_button.Click += new System.EventHandler(this.eventAnalytics_button_Click);
             // 
             // resourceAndVendorManagement_button
             // 
@@ -95,6 +106,7 @@
             this.resourceAndVendorManagement_button.TabIndex = 11;
             this.resourceAndVendorManagement_button.Text = "Resource And Vendor Management";
             this.resourceAndVendorManagement_button.UseVisualStyleBackColor = true;
+            this.resourceAndVendorManagement_button.Click += new System.EventHandler(this.resourceAndVendorManagement_button_Click);
             // 
             // attendeeManagement_button
             // 
@@ -105,6 +117,7 @@
             this.attendeeManagement_button.TabIndex = 10;
             this.attendeeManagement_button.Text = "Attendee Management";
             this.attendeeManagement_button.UseVisualStyleBackColor = true;
+            this.attendeeManagement_button.Click += new System.EventHandler(this.attendeeManagement_button_Click);
             // 
             // ticketAndSales_button
             // 
@@ -115,6 +128,7 @@
             this.ticketAndSales_button.TabIndex = 9;
             this.ticketAndSales_button.Text = "Tickets and Sales";
             this.ticketAndSales_button.UseVisualStyleBackColor = true;
+            this.ticketAndSales_button.Click += new System.EventHandler(this.ticketAndSales_button_Click);
             // 
             // label7
             // 
@@ -135,6 +149,7 @@
             this.registerComplaint_button.TabIndex = 6;
             this.registerComplaint_button.Text = "Register Complaint";
             this.registerComplaint_button.UseVisualStyleBackColor = true;
+            this.registerComplaint_button.Click += new System.EventHandler(this.registerComplaint_button_Click);
             // 
             // createEvent_button
             // 
@@ -145,6 +160,7 @@
             this.createEvent_button.TabIndex = 2;
             this.createEvent_button.Text = "Create Event";
             this.createEvent_button.UseVisualStyleBackColor = true;
+            this.createEvent_button.Click += new System.EventHandler(this.createEvent_button_Click);
             // 
             // label2
             // 
@@ -188,17 +204,17 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.eventListGridView);
-            this.panel2.Location = new System.Drawing.Point(184, 126);
+            this.panel2.Location = new System.Drawing.Point(184, 176);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(771, 410);
+            this.panel2.Size = new System.Drawing.Size(771, 360);
             this.panel2.TabIndex = 43;
             // 
             // eventListGridView
             // 
             this.eventListGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.eventListGridView.Location = new System.Drawing.Point(21, 15);
+            this.eventListGridView.Location = new System.Drawing.Point(39, 9);
             this.eventListGridView.Name = "eventListGridView";
-            this.eventListGridView.Size = new System.Drawing.Size(730, 380);
+            this.eventListGridView.Size = new System.Drawing.Size(712, 351);
             this.eventListGridView.TabIndex = 0;
             // 
             // deleteSelectedEvent_button
@@ -210,6 +226,7 @@
             this.deleteSelectedEvent_button.TabIndex = 44;
             this.deleteSelectedEvent_button.Text = "Delete Selected Event";
             this.deleteSelectedEvent_button.UseVisualStyleBackColor = true;
+            this.deleteSelectedEvent_button.Click += new System.EventHandler(this.deleteSelectedEvent_button_Click);
             // 
             // updateSelectedEvent_button
             // 
@@ -220,12 +237,104 @@
             this.updateSelectedEvent_button.TabIndex = 45;
             this.updateSelectedEvent_button.Text = "Update Selected Event";
             this.updateSelectedEvent_button.UseVisualStyleBackColor = true;
+            this.updateSelectedEvent_button.Click += new System.EventHandler(this.updateSelectedEvent_button_Click);
+            // 
+            // ticket_filter
+            // 
+            this.ticket_filter.AutoSize = true;
+            this.ticket_filter.Location = new System.Drawing.Point(692, 86);
+            this.ticket_filter.Name = "ticket_filter";
+            this.ticket_filter.Size = new System.Drawing.Size(83, 17);
+            this.ticket_filter.TabIndex = 55;
+            this.ticket_filter.Text = "Ticket Type";
+            this.ticket_filter.UseVisualStyleBackColor = true;
+            // 
+            // category_filter
+            // 
+            this.category_filter.AutoSize = true;
+            this.category_filter.Location = new System.Drawing.Point(777, 66);
+            this.category_filter.Name = "category_filter";
+            this.category_filter.Size = new System.Drawing.Size(68, 17);
+            this.category_filter.TabIndex = 54;
+            this.category_filter.Text = "Category";
+            this.category_filter.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(626, 84);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 13);
+            this.label5.TabIndex = 53;
+            this.label5.Text = "Set Filters:";
+            // 
+            // name_filter
+            // 
+            this.name_filter.AutoSize = true;
+            this.name_filter.Location = new System.Drawing.Point(692, 66);
+            this.name_filter.Name = "name_filter";
+            this.name_filter.Size = new System.Drawing.Size(54, 17);
+            this.name_filter.TabIndex = 51;
+            this.name_filter.Text = "Name";
+            this.name_filter.UseVisualStyleBackColor = true;
+            // 
+            // toDatePicker
+            // 
+            this.toDatePicker.Location = new System.Drawing.Point(622, 116);
+            this.toDatePicker.Name = "toDatePicker";
+            this.toDatePicker.Size = new System.Drawing.Size(200, 20);
+            this.toDatePicker.TabIndex = 50;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(595, 122);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(23, 13);
+            this.label4.TabIndex = 49;
+            this.label4.Text = "To:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(337, 121);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(33, 13);
+            this.label3.TabIndex = 48;
+            this.label3.Text = "From:";
+            // 
+            // fromDatePicker
+            // 
+            this.fromDatePicker.Location = new System.Drawing.Point(379, 116);
+            this.fromDatePicker.Name = "fromDatePicker";
+            this.fromDatePicker.Size = new System.Drawing.Size(200, 20);
+            this.fromDatePicker.TabIndex = 47;
+            // 
+            // date_filter
+            // 
+            this.date_filter.AutoSize = true;
+            this.date_filter.Location = new System.Drawing.Point(224, 121);
+            this.date_filter.Name = "date_filter";
+            this.date_filter.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.date_filter.Size = new System.Drawing.Size(88, 17);
+            this.date_filter.TabIndex = 46;
+            this.date_filter.Text = "Filter by Date";
+            this.date_filter.UseVisualStyleBackColor = true;
             // 
             // OrganizerDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1010, 614);
+            this.Controls.Add(this.ticket_filter);
+            this.Controls.Add(this.category_filter);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.name_filter);
+            this.Controls.Add(this.toDatePicker);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.fromDatePicker);
+            this.Controls.Add(this.date_filter);
             this.Controls.Add(this.updateSelectedEvent_button);
             this.Controls.Add(this.deleteSelectedEvent_button);
             this.Controls.Add(this.panel2);
@@ -264,6 +373,15 @@
         private System.Windows.Forms.Button updateSelectedEvent_button;
         private System.Windows.Forms.Button attendeeManagement_button;
         private System.Windows.Forms.Button resourceAndVendorManagement_button;
-        private System.Windows.Forms.Button eventAnalytics_button;
+        private System.Windows.Forms.Button eventFeedbackView_button;
+        private System.Windows.Forms.CheckBox ticket_filter;
+        private System.Windows.Forms.CheckBox category_filter;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckBox name_filter;
+        private System.Windows.Forms.DateTimePicker toDatePicker;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker fromDatePicker;
+        private System.Windows.Forms.CheckBox date_filter;
     }
 }

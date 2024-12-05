@@ -16,12 +16,12 @@ using Event_Verse_Application.Attendee_Files;
 
 namespace Event_Verse_Application.Organizer_Files
 {
-    public partial class UpdateEvent : Form
+    public partial class OrganizerProfileManagement : Form
     {
         Thread threadObj;
         SqlConnection conn = new SqlConnection("Data Source=DESKTOP-G5900N6\\SQLEXPRESS;Initial Catalog=Event_Verse_DB;Integrated Security=True;TrustServerCertificate=True");
 
-        public UpdateEvent()
+        public OrganizerProfileManagement()
         {
             InitializeComponent();
             //center the form on the screen on startup:
@@ -33,38 +33,56 @@ namespace Event_Verse_Application.Organizer_Files
         {
             Application.Run(new OrganizerDashboard());
         }
+        private void openUserLogin(object obj)
+        {
+            Application.Run(new UserLogin());
+        }
 
-        private void UpdateEvent_Load(object sender, EventArgs e)
+        private void OrganizerProfileManagement_Load(object sender, EventArgs e)
         {
 
         }
 
         private void backToDashboard_button_Click(object sender, EventArgs e)
         {
-            //open organizer dashboard:
+            //open the OrganizerDashboard form
             this.Close();
             threadObj = new Thread(openOrganizerDashboard);
             threadObj.SetApartmentState(ApartmentState.STA);
             threadObj.Start();
         }
 
-        private void cancel_button_Click(object sender, EventArgs e)
+        private void logOut_button_Click(object sender, EventArgs e)
         {
-            //open organizer dashboard:
+            //open the userLogin page:
             this.Close();
-            threadObj = new Thread(openOrganizerDashboard);
+            threadObj = new Thread(openUserLogin);
             threadObj.SetApartmentState(ApartmentState.STA);
             threadObj.Start();
         }
 
-        private void update_button_Click(object sender, EventArgs e)
+        private void deleteAttendee_button_Click(object sender, EventArgs e)
         {
-            //use the ID provided from the organizer dashboard to update the event details in the database.
+            //the organizer ID will be transferred from the dashboard. 
+            //based on id the organizer will be deleted from the DB.
+                //IMPORTANT => the all events managed by the organizer will be deleted as well.
 
-            //use the new details provided in the textboxes to update the event details in the database based on ID. 
 
 
-            //open organizer dashboard:
+            //open the userLogin page:
+            this.Close();
+            threadObj = new Thread(openUserLogin);
+            threadObj.SetApartmentState(ApartmentState.STA);
+            threadObj.Start();
+        }
+
+        private void updateInfo_button_Click(object sender, EventArgs e)
+        {
+            //store the information from text in the form. 
+
+
+
+            //open the OrganizerDashboard form
             this.Close();
             threadObj = new Thread(openOrganizerDashboard);
             threadObj.SetApartmentState(ApartmentState.STA);

@@ -37,7 +37,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.toDatePicker = new System.Windows.Forms.DateTimePicker();
             this.name_filter = new System.Windows.Forms.CheckBox();
-            this.type_filter = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.category_filter = new System.Windows.Forms.CheckBox();
             this.ticket_filter = new System.Windows.Forms.CheckBox();
@@ -128,16 +127,6 @@
             this.name_filter.Text = "Name";
             this.name_filter.UseVisualStyleBackColor = true;
             // 
-            // type_filter
-            // 
-            this.type_filter.AutoSize = true;
-            this.type_filter.Location = new System.Drawing.Point(706, 89);
-            this.type_filter.Name = "type_filter";
-            this.type_filter.Size = new System.Drawing.Size(79, 17);
-            this.type_filter.TabIndex = 15;
-            this.type_filter.Text = "Event Type";
-            this.type_filter.UseVisualStyleBackColor = true;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -160,7 +149,7 @@
             // ticket_filter
             // 
             this.ticket_filter.AutoSize = true;
-            this.ticket_filter.Location = new System.Drawing.Point(791, 89);
+            this.ticket_filter.Location = new System.Drawing.Point(706, 86);
             this.ticket_filter.Name = "ticket_filter";
             this.ticket_filter.Size = new System.Drawing.Size(80, 17);
             this.ticket_filter.TabIndex = 18;
@@ -293,7 +282,6 @@
             this.Controls.Add(this.ticket_filter);
             this.Controls.Add(this.category_filter);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.type_filter);
             this.Controls.Add(this.name_filter);
             this.Controls.Add(this.toDatePicker);
             this.Controls.Add(this.label4);
@@ -326,7 +314,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker toDatePicker;
         private System.Windows.Forms.CheckBox name_filter;
-        private System.Windows.Forms.CheckBox type_filter;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox category_filter;
         private System.Windows.Forms.CheckBox ticket_filter;

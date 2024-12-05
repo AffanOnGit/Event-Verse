@@ -124,11 +124,11 @@
     <Compile Include="Organizer Files\CreateEvent.Designer.cs">
       <DependentUpon>CreateEvent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Organizer Files\EventAnalytics.cs">
+    <Compile Include="Organizer Files\EventFeedbackView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Organizer Files\EventAnalytics.Designer.cs">
-      <DependentUpon>EventAnalytics.cs</DependentUpon>
+    <Compile Include="Organizer Files\EventFeedbackView.Designer.cs">
+      <DependentUpon>EventFeedbackView.cs</DependentUpon>
     </Compile>
     <Compile Include="Organizer Files\OrganizerComplaintForm.cs">
       <SubType>Form</SubType>
@@ -141,6 +141,12 @@
     </Compile>
     <Compile Include="Organizer Files\OrganizerDashboard.Designer.cs">
       <DependentUpon>OrganizerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Organizer Files\OrganizerProfileManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Organizer Files\OrganizerProfileManagement.Designer.cs">
+      <DependentUpon>OrganizerProfileManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="Organizer Files\OrganizerRegistration.cs">
       <SubType>Form</SubType>
@@ -204,11 +210,35 @@
     <EmbeddedResource Include="Attendee Files\EventFeedback.resx">
       <DependentUpon>EventFeedback.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\AttendeeManagament.resx">
+      <DependentUpon>AttendeeManagament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\CreateEvent.resx">
+      <DependentUpon>CreateEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\EventFeedbackView.resx">
+      <DependentUpon>EventFeedbackView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\OrganizerComplaintForm.resx">
+      <DependentUpon>OrganizerComplaintForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Organizer Files\OrganizerDashboard.resx">
       <DependentUpon>OrganizerDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\OrganizerProfileManagement.resx">
+      <DependentUpon>OrganizerProfileManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Organizer Files\OrganizerRegistration.resx">
       <DependentUpon>OrganizerRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\ResourceAndVendorManagement.resx">
+      <DependentUpon>ResourceAndVendorManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\TicketAndSalesManagement.resx">
+      <DependentUpon>TicketAndSalesManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Organizer Files\UpdateEvent.resx">
+      <DependentUpon>UpdateEvent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

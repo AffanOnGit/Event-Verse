@@ -13,6 +13,7 @@ using System.Data.SqlClient;
 using System.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System.IO;
+using Event_Verse_Application.Organizer_Files;
 
 namespace Event_Verse_Application
 {
@@ -27,11 +28,16 @@ namespace Event_Verse_Application
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
+
+        //Navigation methods:
         private void openUserLogin(object obj)
         {
             Application.Run(new UserLogin());
         }
-
+        private void openOrganizerRegistration(object obj)
+        {
+            Application.Run(new OrganizerRegistration());
+        }
         private void openAttendeeRegistration(object obj)
         {
             Application.Run(new AttendeeRegistration());
@@ -59,8 +65,15 @@ namespace Event_Verse_Application
             //forwards the info entered by the user here to login page. => helps in the login process.
 
             //open attendee register page:
+            //this.Close();
+            //threadObj = new Thread(openAttendeeRegistration);
+            //threadObj.SetApartmentState(ApartmentState.STA);
+            //threadObj.Start();
+
+
+            //open organizer register page:
             this.Close();
-            threadObj = new Thread(openAttendeeRegistration);
+            threadObj = new Thread(openOrganizerRegistration);
             threadObj.SetApartmentState(ApartmentState.STA);
             threadObj.Start();
         }

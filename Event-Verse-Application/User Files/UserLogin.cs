@@ -13,6 +13,7 @@ using System.Data.SqlClient;
 using System.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System.IO;
+using Event_Verse_Application.Organizer_Files;
 
 namespace Event_Verse_Application
 {
@@ -28,11 +29,16 @@ namespace Event_Verse_Application
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
+
+        //Navigation methods:
         private void openUserRegistration(object obj)
         {
             Application.Run(new UserRegistration());
         }
-
+        private void openOrganizerDashboard(object obj)
+        {
+            Application.Run(new OrganizerDashboard());
+        }
         private void openAttendeeDashboard(object obj)
         {
             Application.Run(new AttendeeDashboard());
@@ -57,10 +63,17 @@ namespace Event_Verse_Application
 
 
             //open the attendee dashboard;
+            //this.Close();
+            //threadObj = new Thread(openAttendeeDashboard);
+            //threadObj.SetApartmentState(ApartmentState.STA);
+            //threadObj.Start();
+
+            //open the organizer dashboard;
             this.Close();
-            threadObj = new Thread(openAttendeeDashboard);
+            threadObj = new Thread(openOrganizerDashboard);
             threadObj.SetApartmentState(ApartmentState.STA);
             threadObj.Start();
+
         }
 
         private void UserLogin_Load(object sender, EventArgs e)

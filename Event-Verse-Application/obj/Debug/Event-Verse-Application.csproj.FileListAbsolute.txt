@@ -32,3 +32,13 @@ C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event-Ve.33
 C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event-Verse-Application.exe
 C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event-Verse-Application.pdb
 C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Attendee_Files.AttendeeComplaintForm.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.CreateEvent.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.OrganizerDashboard.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.OrganizerRegistration.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.UpdateEvent.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.OrganizerProfileManagement.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.AttendeeManagament.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.EventFeedbackView.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.ResourceAndVendorManagement.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.TicketAndSalesManagement.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.OrganizerComplaintForm.resources
