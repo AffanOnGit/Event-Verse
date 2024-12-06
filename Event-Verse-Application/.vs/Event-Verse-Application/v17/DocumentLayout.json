@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\user files\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:user files\\userregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\organizer files\\eventfeedbackview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:organizer files\\eventfeedbackview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\organizer files\\organizerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:organizer files\\organizerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\organizer files\\ticketandsalesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:organizer files\\ticketandsalesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\organizer files\\resourceandvendormanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:organizer files\\resourceandvendormanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\attendee files\\attendeeprofilemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:attendee files\\attendeeprofilemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\attendee files\\upcomingevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:attendee files\\upcomingevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\attendee files\\eventfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:attendee files\\eventfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\attendee files\\attendeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:attendee files\\attendeeregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\organizer files\\createevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:organizer files\\createevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|c:\\users\\affan\\desktop\\event-verse\\event-verse-application\\organizer files\\organizerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79468E49-5206-48D5-9A97-A447184036F0}|Event-Verse-Application.csproj|solutionrelative:organizer files\\organizerregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 107,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventFeedbackView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\EventFeedbackView.cs",
+              "RelativeDocumentMoniker": "Organizer Files\\EventFeedbackView.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\EventFeedbackView.cs [Design]",
+              "RelativeToolTip": "Organizer Files\\EventFeedbackView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:48:59.76Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizerDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\OrganizerDashboard.cs",
+              "RelativeDocumentMoniker": "Organizer Files\\OrganizerDashboard.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\OrganizerDashboard.cs [Design]",
+              "RelativeToolTip": "Organizer Files\\OrganizerDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:48:49.788Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketAndSalesManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\TicketAndSalesManagement.cs",
+              "RelativeDocumentMoniker": "Organizer Files\\TicketAndSalesManagement.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\TicketAndSalesManagement.cs [Design]",
+              "RelativeToolTip": "Organizer Files\\TicketAndSalesManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:39:23.11Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\User Files\\UserRegistration.cs",
+              "RelativeDocumentMoniker": "User Files\\UserRegistration.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\User Files\\UserRegistration.cs [Design]",
+              "RelativeToolTip": "User Files\\UserRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:01:19.05Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResourceAndVendorManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\ResourceAndVendorManagement.cs",
+              "RelativeDocumentMoniker": "Organizer Files\\ResourceAndVendorManagement.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\ResourceAndVendorManagement.cs [Design]",
+              "RelativeToolTip": "Organizer Files\\ResourceAndVendorManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:34:39.148Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttendeeProfileManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\AttendeeProfileManagement.cs",
+              "RelativeDocumentMoniker": "Attendee Files\\AttendeeProfileManagement.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\AttendeeProfileManagement.cs [Design]",
+              "RelativeToolTip": "Attendee Files\\AttendeeProfileManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:32:38.392Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpcomingEvents.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\UpcomingEvents.cs",
+              "RelativeDocumentMoniker": "Attendee Files\\UpcomingEvents.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\UpcomingEvents.cs [Design]",
+              "RelativeToolTip": "Attendee Files\\UpcomingEvents.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:32:20.098Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventFeedback.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\EventFeedback.cs",
+              "RelativeDocumentMoniker": "Attendee Files\\EventFeedback.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\EventFeedback.cs [Design]",
+              "RelativeToolTip": "Attendee Files\\EventFeedback.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:23:51.193Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttendeeRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\AttendeeRegistration.cs",
+              "RelativeDocumentMoniker": "Attendee Files\\AttendeeRegistration.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Attendee Files\\AttendeeRegistration.cs [Design]",
+              "RelativeToolTip": "Attendee Files\\AttendeeRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:22:56.268Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateEvent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\CreateEvent.cs",
+              "RelativeDocumentMoniker": "Organizer Files\\CreateEvent.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\CreateEvent.cs [Design]",
+              "RelativeToolTip": "Organizer Files\\CreateEvent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:19:10.182Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrganizerRegistration.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\OrganizerRegistration.cs",
+              "RelativeDocumentMoniker": "Organizer Files\\OrganizerRegistration.cs",
+              "ToolTip": "C:\\Users\\affan\\Desktop\\Event-Verse\\Event-Verse-Application\\Organizer Files\\OrganizerRegistration.cs [Design]",
+              "RelativeToolTip": "Organizer Files\\OrganizerRegistration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:08:45.665Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

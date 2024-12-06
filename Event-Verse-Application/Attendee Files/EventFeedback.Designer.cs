@@ -40,6 +40,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.feedback_box = new System.Windows.Forms.TextBox();
             this.provideFeedback_button = new System.Windows.Forms.Button();
+            this.rating_box = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -150,11 +152,29 @@
             this.provideFeedback_button.UseVisualStyleBackColor = false;
             this.provideFeedback_button.Click += new System.EventHandler(this.provideFeedback_button_Click);
             // 
+            // rating_box
+            // 
+            this.rating_box.Location = new System.Drawing.Point(134, 205);
+            this.rating_box.Name = "rating_box";
+            this.rating_box.Size = new System.Drawing.Size(142, 20);
+            this.rating_box.TabIndex = 58;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(51, 205);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 13);
+            this.label5.TabIndex = 57;
+            this.label5.Text = "Rating :";
+            // 
             // EventFeedback
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(363, 374);
+            this.Controls.Add(this.rating_box);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.provideFeedback_button);
             this.Controls.Add(this.feedback_box);
             this.Controls.Add(this.label3);
@@ -189,5 +209,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox feedback_box;
         private System.Windows.Forms.Button provideFeedback_button;
+        private System.Windows.Forms.TextBox rating_box;
+        private System.Windows.Forms.Label label5;
     }
 }

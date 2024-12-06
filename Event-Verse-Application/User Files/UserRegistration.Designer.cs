@@ -54,6 +54,8 @@
             this.gender_box = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.location_box = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -122,7 +124,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(9, 253);
+            this.label5.Location = new System.Drawing.Point(9, 259);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 21);
             this.label5.TabIndex = 10;
@@ -147,7 +149,7 @@
             // 
             // reigsterContact_box
             // 
-            this.reigsterContact_box.Location = new System.Drawing.Point(122, 254);
+            this.reigsterContact_box.Location = new System.Drawing.Point(122, 260);
             this.reigsterContact_box.Name = "reigsterContact_box";
             this.reigsterContact_box.Size = new System.Drawing.Size(156, 22);
             this.reigsterContact_box.TabIndex = 13;
@@ -298,11 +300,30 @@
             this.label12.TabIndex = 28;
             this.label12.Text = "User Registration";
             // 
+            // location_box
+            // 
+            this.location_box.Location = new System.Drawing.Point(125, 293);
+            this.location_box.Name = "location_box";
+            this.location_box.Size = new System.Drawing.Size(156, 22);
+            this.location_box.TabIndex = 30;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(12, 292);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(76, 21);
+            this.label13.TabIndex = 29;
+            this.label13.Text = "Location :";
+            // 
             // UserRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 514);
+            this.Controls.Add(this.location_box);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.gender_box);
             this.Controls.Add(this.label11);
@@ -366,5 +387,7 @@
         private System.Windows.Forms.TextBox gender_box;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox location_box;
+        private System.Windows.Forms.Label label13;
     }
 }
