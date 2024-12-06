@@ -65,6 +65,12 @@
     <Compile Include="Admin Files\EventApproval.Designer.cs">
       <DependentUpon>EventApproval.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin Files\ViewComplaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Files\ViewComplaint.Designer.cs">
+      <DependentUpon>ViewComplaint.cs</DependentUpon>
+    </Compile>
     <Compile Include="Attendee Files\AttendeeComplaintForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -204,6 +210,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin Files\EventApproval.resx">
       <DependentUpon>EventApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Files\ViewComplaint.resx">
+      <DependentUpon>ViewComplaint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Attendee Files\AttendeeComplaintForm.resx">
       <DependentUpon>AttendeeComplaintForm.cs</DependentUpon>

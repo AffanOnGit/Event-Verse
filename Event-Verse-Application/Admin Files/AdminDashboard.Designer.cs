@@ -35,16 +35,16 @@
             this.userSearch_box = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.complaintResolution_button = new System.Windows.Forms.Button();
+            this.feedbackModeration_button = new System.Windows.Forms.Button();
+            this.organizerPerformance_button = new System.Windows.Forms.Button();
+            this.platformGrowth_button = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.viewComplaint_button = new System.Windows.Forms.Button();
             this.eventApproval_button = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.userListGridView = new System.Windows.Forms.DataGridView();
             this.approveUser_button = new System.Windows.Forms.Button();
-            this.platformGrowth_button = new System.Windows.Forms.Button();
-            this.organizerPerformance_button = new System.Windows.Forms.Button();
-            this.feedbackModeration_button = new System.Windows.Forms.Button();
-            this.complaintResolution_button = new System.Windows.Forms.Button();
             this.logOut_button = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userListGridView)).BeginInit();
@@ -122,6 +122,46 @@
             this.panel1.Size = new System.Drawing.Size(170, 590);
             this.panel1.TabIndex = 61;
             // 
+            // complaintResolution_button
+            // 
+            this.complaintResolution_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.complaintResolution_button.Location = new System.Drawing.Point(4, 443);
+            this.complaintResolution_button.Name = "complaintResolution_button";
+            this.complaintResolution_button.Size = new System.Drawing.Size(163, 52);
+            this.complaintResolution_button.TabIndex = 10;
+            this.complaintResolution_button.Text = "Complaint Resolution";
+            this.complaintResolution_button.UseVisualStyleBackColor = true;
+            // 
+            // feedbackModeration_button
+            // 
+            this.feedbackModeration_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.feedbackModeration_button.Location = new System.Drawing.Point(4, 385);
+            this.feedbackModeration_button.Name = "feedbackModeration_button";
+            this.feedbackModeration_button.Size = new System.Drawing.Size(163, 52);
+            this.feedbackModeration_button.TabIndex = 10;
+            this.feedbackModeration_button.Text = "Feedback Moderation";
+            this.feedbackModeration_button.UseVisualStyleBackColor = true;
+            // 
+            // organizerPerformance_button
+            // 
+            this.organizerPerformance_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.organizerPerformance_button.Location = new System.Drawing.Point(4, 327);
+            this.organizerPerformance_button.Name = "organizerPerformance_button";
+            this.organizerPerformance_button.Size = new System.Drawing.Size(163, 52);
+            this.organizerPerformance_button.TabIndex = 10;
+            this.organizerPerformance_button.Text = "Organizer Performance";
+            this.organizerPerformance_button.UseVisualStyleBackColor = true;
+            // 
+            // platformGrowth_button
+            // 
+            this.platformGrowth_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.platformGrowth_button.Location = new System.Drawing.Point(4, 269);
+            this.platformGrowth_button.Name = "platformGrowth_button";
+            this.platformGrowth_button.Size = new System.Drawing.Size(163, 52);
+            this.platformGrowth_button.TabIndex = 9;
+            this.platformGrowth_button.Text = "Platform Growth";
+            this.platformGrowth_button.UseVisualStyleBackColor = true;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -141,6 +181,7 @@
             this.viewComplaint_button.TabIndex = 6;
             this.viewComplaint_button.Text = "View Complaints";
             this.viewComplaint_button.UseVisualStyleBackColor = true;
+            this.viewComplaint_button.Click += new System.EventHandler(this.viewComplaint_button_Click);
             // 
             // eventApproval_button
             // 
@@ -151,6 +192,7 @@
             this.eventApproval_button.TabIndex = 2;
             this.eventApproval_button.Text = "Event Approvals";
             this.eventApproval_button.UseVisualStyleBackColor = true;
+            this.eventApproval_button.Click += new System.EventHandler(this.eventApproval_button_Click);
             // 
             // label2
             // 
@@ -180,46 +222,6 @@
             this.approveUser_button.TabIndex = 63;
             this.approveUser_button.Text = "Approve User";
             this.approveUser_button.UseVisualStyleBackColor = true;
-            // 
-            // platformGrowth_button
-            // 
-            this.platformGrowth_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.platformGrowth_button.Location = new System.Drawing.Point(4, 269);
-            this.platformGrowth_button.Name = "platformGrowth_button";
-            this.platformGrowth_button.Size = new System.Drawing.Size(163, 52);
-            this.platformGrowth_button.TabIndex = 9;
-            this.platformGrowth_button.Text = "Platform Growth";
-            this.platformGrowth_button.UseVisualStyleBackColor = true;
-            // 
-            // organizerPerformance_button
-            // 
-            this.organizerPerformance_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.organizerPerformance_button.Location = new System.Drawing.Point(4, 327);
-            this.organizerPerformance_button.Name = "organizerPerformance_button";
-            this.organizerPerformance_button.Size = new System.Drawing.Size(163, 52);
-            this.organizerPerformance_button.TabIndex = 10;
-            this.organizerPerformance_button.Text = "Organizer Performance";
-            this.organizerPerformance_button.UseVisualStyleBackColor = true;
-            // 
-            // feedbackModeration_button
-            // 
-            this.feedbackModeration_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.feedbackModeration_button.Location = new System.Drawing.Point(4, 385);
-            this.feedbackModeration_button.Name = "feedbackModeration_button";
-            this.feedbackModeration_button.Size = new System.Drawing.Size(163, 52);
-            this.feedbackModeration_button.TabIndex = 10;
-            this.feedbackModeration_button.Text = "Feedback Moderation";
-            this.feedbackModeration_button.UseVisualStyleBackColor = true;
-            // 
-            // complaintResolution_button
-            // 
-            this.complaintResolution_button.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.complaintResolution_button.Location = new System.Drawing.Point(4, 443);
-            this.complaintResolution_button.Name = "complaintResolution_button";
-            this.complaintResolution_button.Size = new System.Drawing.Size(163, 52);
-            this.complaintResolution_button.TabIndex = 10;
-            this.complaintResolution_button.Text = "Complaint Resolution";
-            this.complaintResolution_button.UseVisualStyleBackColor = true;
             // 
             // logOut_button
             // 
