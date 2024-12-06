@@ -445,7 +445,8 @@ VALUES
     ('VEN008', 'Hannah Purple', 'Audio-visual'),
     ('VEN009', 'Ian Orange', 'Decoration'),
     ('VEN010', 'Jack Pink', 'Logistics');
-SELECT * FROM Vendor;
+SELECT *
+FROM Vendor;
 
 --Inserting into Events Table:
 INSERT INTO Events
@@ -501,114 +502,116 @@ SELECT *
 FROM Events;
 
 --Inserting into Tickets Table:
-INSERT INTO Tickets (eventID, category, price, available)
+INSERT INTO Tickets
+    (eventID, category, price, available)
 VALUES
-(1, 'VIP', 150.00, 1),
-(1, 'General', 50.00, 1),
-(2, 'VIP', 150.00, 1),
-(2, 'General', 50.00, 1),
-(3, 'VIP', 150.00, 1),
-(3, 'General', 50.00, 1),
-(4, 'VIP', 150.00, 1),
-(4, 'General', 50.00, 1),
-(5, 'VIP', 150.00, 1),
-(5, 'General', 50.00, 1),
-(6, 'VIP', 150.00, 1),
-(6, 'General', 50.00, 1),
-(7, 'VIP', 150.00, 1),
-(7, 'General', 50.00, 1),
-(8, 'VIP', 150.00, 1),
-(8, 'General', 50.00, 1),
-(9, 'VIP', 150.00, 1),
-(9, 'General', 50.00, 1),
-(10, 'VIP', 150.00, 1),
-(10, 'General', 50.00, 1),
-(11, 'VIP', 150.00, 1),
-(11, 'General', 50.00, 1),
-(12, 'VIP', 150.00, 1),
-(12, 'General', 50.00, 1),
-(13, 'VIP', 150.00, 1),
-(13, 'General', 50.00, 1),
-(14, 'VIP', 150.00, 1),
-(14, 'General', 50.00, 1),
-(15, 'VIP', 150.00, 1),
-(15, 'General', 50.00, 1),
-(16, 'VIP', 150.00, 1),
-(16, 'General', 50.00, 1),
-(17, 'VIP', 150.00, 1),
-(17, 'General', 50.00, 1),
-(18, 'VIP', 150.00, 1),
-(18, 'General', 50.00, 1),
-(19, 'VIP', 150.00, 1),
-(19, 'General', 50.00, 1),
-(20, 'VIP', 150.00, 1),
-(20, 'General', 50.00, 1),
-(21, 'VIP', 150.00, 1),
-(21, 'General', 50.00, 1),
-(22, 'VIP', 150.00, 1),
-(22, 'General', 50.00, 1),
-(23, 'VIP', 150.00, 1),
-(23, 'General', 50.00, 1),
-(24, 'VIP', 150.00, 1),
-(24, 'General', 50.00, 1),
-(25, 'VIP', 150.00, 1),
-(25, 'General', 50.00, 1);
+    (1, 'VIP', 150.00, 1),
+    (1, 'General', 50.00, 1),
+    (2, 'VIP', 150.00, 1),
+    (2, 'General', 50.00, 1),
+    (3, 'VIP', 150.00, 1),
+    (3, 'General', 50.00, 1),
+    (4, 'VIP', 150.00, 1),
+    (4, 'General', 50.00, 1),
+    (5, 'VIP', 150.00, 1),
+    (5, 'General', 50.00, 1),
+    (6, 'VIP', 150.00, 1),
+    (6, 'General', 50.00, 1),
+    (7, 'VIP', 150.00, 1),
+    (7, 'General', 50.00, 1),
+    (8, 'VIP', 150.00, 1),
+    (8, 'General', 50.00, 1),
+    (9, 'VIP', 150.00, 1),
+    (9, 'General', 50.00, 1),
+    (10, 'VIP', 150.00, 1),
+    (10, 'General', 50.00, 1),
+    (11, 'VIP', 150.00, 1),
+    (11, 'General', 50.00, 1),
+    (12, 'VIP', 150.00, 1),
+    (12, 'General', 50.00, 1),
+    (13, 'VIP', 150.00, 1),
+    (13, 'General', 50.00, 1),
+    (14, 'VIP', 150.00, 1),
+    (14, 'General', 50.00, 1),
+    (15, 'VIP', 150.00, 1),
+    (15, 'General', 50.00, 1),
+    (16, 'VIP', 150.00, 1),
+    (16, 'General', 50.00, 1),
+    (17, 'VIP', 150.00, 1),
+    (17, 'General', 50.00, 1),
+    (18, 'VIP', 150.00, 1),
+    (18, 'General', 50.00, 1),
+    (19, 'VIP', 150.00, 1),
+    (19, 'General', 50.00, 1),
+    (20, 'VIP', 150.00, 1),
+    (20, 'General', 50.00, 1),
+    (21, 'VIP', 150.00, 1),
+    (21, 'General', 50.00, 1),
+    (22, 'VIP', 150.00, 1),
+    (22, 'General', 50.00, 1),
+    (23, 'VIP', 150.00, 1),
+    (23, 'General', 50.00, 1),
+    (24, 'VIP', 150.00, 1),
+    (24, 'General', 50.00, 1),
+    (25, 'VIP', 150.00, 1),
+    (25, 'General', 50.00, 1);
 SELECT *
 FROM Tickets;
 
 -- Inserting into Attending Table
-INSERT INTO Attending (attendeeID, eventID, bookedTicket, downloadE_Ticket)
+INSERT INTO Attending
+    (attendeeID, eventID, bookedTicket, downloadE_Ticket)
 VALUES
-('ATT001', 1, 1, 1),
-('ATT002', 2, 1, 1),
-('ATT003', 3, 1, 1),
-('ATT004', 4, 1, 1),
-('ATT005', 5, 1, 1),
-('ATT006', 6, 1, 1),
-('ATT007', 7, 1, 1),
-('ATT008', 8, 1, 1),
-('ATT009', 9, 1, 1),
-('ATT010', 10, 1, 1),
-('ATT011', 11, 1, 1),
-('ATT012', 12, 1, 1),
-('ATT013', 13, 1, 1),
-('ATT014', 14, 1, 1),
-('ATT015', 15, 1, 1),
-('ATT016', 16, 1, 1),
-('ATT017', 17, 1, 1),
-('ATT018', 18, 1, 1),
-('ATT019', 19, 1, 1),
-('ATT020', 20, 1, 1),
-('ATT021', 21, 1, 1),
-('ATT022', 22, 1, 1),
-('ATT023', 23, 1, 1),
-('ATT024', 24, 1, 1),
-('ATT025', 25, 1, 1),
-('ATT026', 1, 1, 1),
-('ATT027', 2, 1, 1),
-('ATT028', 3, 1, 1),
-('ATT029', 4, 1, 1),
-('ATT030', 5, 1, 1),
-('ATT031', 6, 1, 1),
-('ATT032', 7, 1, 1),
-('ATT033', 8, 1, 1),
-('ATT034', 9, 1, 1),
-('ATT035', 10, 1, 1),
-('ATT036', 11, 1, 1),
-('ATT037', 12, 1, 1),
-('ATT038', 13, 1, 1),
-('ATT039', 14, 1, 1),
-('ATT040', 15, 1, 1),
-('ATT041', 16, 1, 1),
-('ATT042', 17, 1, 1),
-('ATT043', 18, 1, 1),
-('ATT044', 19, 1, 1),
-('ATT045', 20, 1, 1),
-('ATT046', 21, 1, 1),
-('ATT047', 22, 1, 1),
-('ATT048', 23, 1, 1),
-('ATT049', 24, 1, 1),
-('ATT050', 25, 1, 1);
+    ('ATT001', 1, 1, 1),
+    ('ATT002', 2, 1, 1),
+    ('ATT003', 3, 1, 1),
+    ('ATT004', 4, 1, 1),
+    ('ATT005', 5, 1, 1),
+    ('ATT006', 6, 1, 1),
+    ('ATT007', 7, 1, 1),
+    ('ATT008', 8, 1, 1),
+    ('ATT009', 9, 1, 1),
+    ('ATT010', 10, 1, 1),
+    ('ATT011', 11, 1, 1),
+    ('ATT012', 12, 1, 1),
+    ('ATT013', 13, 1, 1),
+    ('ATT014', 14, 1, 1),
+    ('ATT015', 15, 1, 1),
+    ('ATT016', 16, 1, 1),
+    ('ATT017', 17, 1, 1),
+    ('ATT018', 18, 1, 1),
+    ('ATT019', 19, 1, 1),
+    ('ATT020', 20, 1, 1),
+    ('ATT021', 21, 1, 1),
+    ('ATT022', 22, 1, 1),
+    ('ATT023', 23, 1, 1),
+    ('ATT024', 24, 1, 1),
+    ('ATT025', 25, 1, 1),
+    ('ATT026', 1, 1, 1),
+    ('ATT027', 2, 1, 1),
+    ('ATT028', 3, 1, 1),
+    ('ATT029', 4, 1, 1),
+    ('ATT030', 5, 1, 1),
+    ('ATT031', 6, 1, 1),
+    ('ATT032', 7, 1, 1),
+    ('ATT033', 8, 1, 1),
+    ('ATT034', 9, 1, 1),
+    ('ATT035', 10, 1, 1),
+    ('ATT036', 11, 1, 1),
+    ('ATT037', 12, 1, 1),
+    ('ATT038', 13, 1, 1),
+    ('ATT039', 14, 1, 1),
+    ('ATT040', 15, 1, 1),
+    ('ATT041', 16, 1, 1),
+    ('ATT042', 17, 1, 1),
+    ('ATT043', 18, 1, 1),
+    ('ATT044', 19, 1, 1),
+    ('ATT045', 20, 1, 1),
+    ('ATT046', 21, 1, 1),
+    ('ATT047', 22, 1, 1),
+    ('ATT048', 23, 1, 1),
+    ('ATT049', 24, 1, 1),
+    ('ATT050', 25, 1, 1);
 
 SELECT *
 FROM Attending;
@@ -616,64 +619,267 @@ FROM Attending;
 
 
 -- Inserting into EventVendor Table
-INSERT INTO EventVendor (eventID, vendorID, serviceDescription)
+INSERT INTO EventVendor
+    (eventID, vendorID, serviceDescription)
 VALUES
-(1, 'VEN001', 'Catering services for the event.'),
-(2, 'VEN002', 'Security services for the event.'),
-(3, 'VEN003', 'Audio-visual services for the event.'),
-(4, 'VEN004', 'Decoration services for the event.'),
-(5, 'VEN005', 'Logistics and transportation services for the event.'),
-(6, 'VEN001', 'Catering services for the event.'),
-(7, 'VEN002', 'Security services for the event.'),
-(8, 'VEN003', 'Audio-visual services for the event.'),
-(9, 'VEN004', 'Decoration services for the event.'),
-(10, 'VEN005', 'Logistics and transportation services for the event.'),
-(11, 'VEN001', 'Catering services for the event.'),
-(12, 'VEN002', 'Security services for the event.'),
-(13, 'VEN003', 'Audio-visual services for the event.'),
-(14, 'VEN004', 'Decoration services for the event.'),
-(15, 'VEN005', 'Logistics and transportation services for the event.'),
-(16, 'VEN001', 'Catering services for the event.'),
-(17, 'VEN002', 'Security services for the event.'),
-(18, 'VEN003', 'Audio-visual services for the event.'),
-(19, 'VEN004', 'Decoration services for the event.'),
-(20, 'VEN005', 'Logistics and transportation services for the event.'),
-(21, 'VEN001', 'Catering services for the event.'),
-(22, 'VEN002', 'Security services for the event.'),
-(23, 'VEN003', 'Audio-visual services for the event.'),
-(24, 'VEN004', 'Decoration services for the event.'),
-(25, 'VEN005', 'Logistics and transportation services for the event.');
+    (1, 'VEN001', 'Catering services for the event.'),
+    (2, 'VEN002', 'Security services for the event.'),
+    (3, 'VEN003', 'Audio-visual services for the event.'),
+    (4, 'VEN004', 'Decoration services for the event.'),
+    (5, 'VEN005', 'Logistics and transportation services for the event.'),
+    (6, 'VEN001', 'Catering services for the event.'),
+    (7, 'VEN002', 'Security services for the event.'),
+    (8, 'VEN003', 'Audio-visual services for the event.'),
+    (9, 'VEN004', 'Decoration services for the event.'),
+    (10, 'VEN005', 'Logistics and transportation services for the event.'),
+    (11, 'VEN001', 'Catering services for the event.'),
+    (12, 'VEN002', 'Security services for the event.'),
+    (13, 'VEN003', 'Audio-visual services for the event.'),
+    (14, 'VEN004', 'Decoration services for the event.'),
+    (15, 'VEN005', 'Logistics and transportation services for the event.'),
+    (16, 'VEN001', 'Catering services for the event.'),
+    (17, 'VEN002', 'Security services for the event.'),
+    (18, 'VEN003', 'Audio-visual services for the event.'),
+    (19, 'VEN004', 'Decoration services for the event.'),
+    (20, 'VEN005', 'Logistics and transportation services for the event.'),
+    (21, 'VEN001', 'Catering services for the event.'),
+    (22, 'VEN002', 'Security services for the event.'),
+    (23, 'VEN003', 'Audio-visual services for the event.'),
+    (24, 'VEN004', 'Decoration services for the event.'),
+    (25, 'VEN005', 'Logistics and transportation services for the event.');
 
-SELECT * FROM EventVendor;
+SELECT *
+FROM EventVendor;
 
 
 --INserting into EventFeedback table:
-INSERT INTO EventFeedback (attendeeID, eventID, eventName, feedbackText, rating)
+INSERT INTO EventFeedback
+    (attendeeID, eventID, eventName, feedbackText, rating)
 VALUES
-('ATT001', 1, 'Tech Conference 2023', 'Great event with insightful sessions.', 5),
-('ATT002', 2, 'Art Expo 2023', 'Amazing artwork and well-organized.', 4),
-('ATT003', 3, 'Food Festival 2023', 'Delicious food and great atmosphere.', 5),
-('ATT004', 4, 'Music Fest 2023', 'Fantastic performances and good crowd.', 4),
-('ATT005', 5, 'Sports Meet 2023', 'Well-organized and exciting events.', 5),
-('ATT006', 6, 'Theater Play 2023', 'Excellent play and great acting.', 4),
-('ATT007', 7, 'Film Festival 2023', 'Impressive selection of films.', 5),
-('ATT008', 8, 'Book Fair 2023', 'Wide variety of books and authors.', 4),
-('ATT009', 9, 'Fashion Show 2023', 'Stylish and trendy fashion show.', 5),
-('ATT010', 10, 'Gaming Convention 2023', 'Exciting games and great experience.', 5),
-('ATT011', 11, 'Tech Expo 2023', 'Innovative tech displays and demos.', 4),
-('ATT012', 12, 'Art Fair 2023', 'Beautiful art pieces and friendly artists.', 5),
-('ATT013', 13, 'Gourmet Food Fest 2023', 'Delicious gourmet food and drinks.', 5),
-('ATT014', 14, 'Live Music Fest 2023', 'Energetic performances and good vibes.', 4),
-('ATT015', 15, 'Sports Gala 2023', 'Exciting sports events and activities.', 5),
-('ATT016', 16, 'Drama Play 2023', 'Captivating drama and excellent acting.', 4),
-('ATT017', 17, 'Indie Film Fest 2023', 'Great selection of indie films.', 5),
-('ATT018', 18, 'Literature Fair 2023', 'Interesting literature and discussions.', 4),
-('ATT019', 19, 'Fashion Gala 2023', 'Elegant and stylish fashion show.', 5),
-('ATT020', 20, 'E-Sports Convention 2023', 'Thrilling e-sports competitions.', 5),
-('ATT021', 21, 'Tech Summit 2023', 'Informative sessions and networking opportunities.', 4),
-('ATT022', 22, 'Art Symposium 2023', 'Inspiring talks and beautiful art.', 5),
-('ATT023', 23, 'Food Carnival 2023', 'Fun atmosphere and delicious food.', 5),
-('ATT024', 24, 'Music Extravaganza 2023', 'Great music and lively crowd.', 4),
-('ATT025', 25, 'Sports Extravaganza 2023', 'Exciting sports events and activities.', 5);
+    ('ATT001', 1, 'Tech Conference 2023', 'Great event with insightful sessions.', 5),
+    ('ATT002', 2, 'Art Expo 2023', 'Amazing artwork and well-organized.', 4),
+    ('ATT003', 3, 'Food Festival 2023', 'Delicious food and great atmosphere.', 5),
+    ('ATT004', 4, 'Music Fest 2023', 'Fantastic performances and good crowd.', 4),
+    ('ATT005', 5, 'Sports Meet 2023', 'Well-organized and exciting events.', 5),
+    ('ATT006', 6, 'Theater Play 2023', 'Excellent play and great acting.', 4),
+    ('ATT007', 7, 'Film Festival 2023', 'Impressive selection of films.', 5),
+    ('ATT008', 8, 'Book Fair 2023', 'Wide variety of books and authors.', 4),
+    ('ATT009', 9, 'Fashion Show 2023', 'Stylish and trendy fashion show.', 5),
+    ('ATT010', 10, 'Gaming Convention 2023', 'Exciting games and great experience.', 5),
+    ('ATT011', 11, 'Tech Expo 2023', 'Innovative tech displays and demos.', 4),
+    ('ATT012', 12, 'Art Fair 2023', 'Beautiful art pieces and friendly artists.', 5),
+    ('ATT013', 13, 'Gourmet Food Fest 2023', 'Delicious gourmet food and drinks.', 5),
+    ('ATT014', 14, 'Live Music Fest 2023', 'Energetic performances and good vibes.', 4),
+    ('ATT015', 15, 'Sports Gala 2023', 'Exciting sports events and activities.', 5),
+    ('ATT016', 16, 'Drama Play 2023', 'Captivating drama and excellent acting.', 4),
+    ('ATT017', 17, 'Indie Film Fest 2023', 'Great selection of indie films.', 5),
+    ('ATT018', 18, 'Literature Fair 2023', 'Interesting literature and discussions.', 4),
+    ('ATT019', 19, 'Fashion Gala 2023', 'Elegant and stylish fashion show.', 5),
+    ('ATT020', 20, 'E-Sports Convention 2023', 'Thrilling e-sports competitions.', 5),
+    ('ATT021', 21, 'Tech Summit 2023', 'Informative sessions and networking opportunities.', 4),
+    ('ATT022', 22, 'Art Symposium 2023', 'Inspiring talks and beautiful art.', 5),
+    ('ATT023', 23, 'Food Carnival 2023', 'Fun atmosphere and delicious food.', 5),
+    ('ATT024', 24, 'Music Extravaganza 2023', 'Great music and lively crowd.', 4),
+    ('ATT025', 25, 'Sports Extravaganza 2023', 'Exciting sports events and activities.', 5);
 
-SELECT * FROM EventFeedback;
+SELECT *
+FROM EventFeedback;
+
+
+
+-- Inserting into Complaints Table
+INSERT INTO Complaints (userID, feedback)
+VALUES
+('ATT001', 'The event was not well organized.'),
+('ATT002', 'The venue was too crowded.'),
+('ATT003', 'The event started late.'),
+('ATT004', 'The food quality was poor.'),
+('ATT005', 'The sound system was not clear.'),
+('ATT006', 'The seating arrangement was uncomfortable.'),
+('ATT007', 'The event schedule was not followed.'),
+('ATT008', 'The staff was not helpful.'),
+('ATT009', 'The parking area was too far.'),
+('ATT010', 'The event was too expensive.');
+
+SELECT * FROM Complaints;
+
+
+
+
+
+
+--AUDIT TRAIL TRIGGERS FOR Event-Verse-DB:
+
+-- Audit table for Users
+CREATE TABLE UsersAudit
+(
+    auditID INT NOT NULL IDENTITY PRIMARY KEY,
+    -- Unique identifier for each audit entry
+    userID VARCHAR(255) NOT NULL,
+    -- ID of the user being audited
+    operationType VARCHAR(50) NOT NULL,
+    -- Type of operation (INSERT, UPDATE, DELETE)
+    operationDate DATETIME NOT NULL DEFAULT GETDATE(),
+    -- Date and time of the operation
+    oldName VARCHAR(255),
+    -- Old name (for UPDATE and DELETE)
+    newName VARCHAR(255),
+    -- New name (for INSERT and UPDATE)
+    oldEmail VARCHAR(255),
+    -- Old email (for UPDATE and DELETE)
+    newEmail VARCHAR(255),
+    -- New email (for INSERT and UPDATE)
+    oldContact VARCHAR(50),
+    -- Old contact (for UPDATE and DELETE)
+    newContact VARCHAR(50),
+    -- New contact (for INSERT and UPDATE)
+    oldAge INT,
+    -- Old age (for UPDATE and DELETE)
+    newAge INT,
+    -- New age (for INSERT and UPDATE)
+    oldGender VARCHAR(10),
+    -- Old gender (for UPDATE and DELETE)
+    newGender VARCHAR(10),
+    -- New gender (for INSERT and UPDATE)
+    oldPassword VARCHAR(255),
+    -- Old password (for UPDATE and DELETE)
+    newPassword VARCHAR(255),
+    -- New password (for INSERT and UPDATE)
+    oldUserType VARCHAR(50),
+    -- Old user type (for UPDATE and DELETE)
+    newUserType VARCHAR(50),
+    -- New user type (for INSERT and UPDATE)
+    oldLocationID INT,
+    -- Old location ID (for UPDATE and DELETE)
+    newLocationID INT,
+    -- New location ID (for INSERT and UPDATE)
+    oldApproved BIT,
+    -- Old approved status (for UPDATE and DELETE)
+    newApproved BIT
+    -- New approved status (for INSERT and UPDATE)
+);
+-- Trigger for INSERT on Users
+GO
+CREATE TRIGGER 
+trgUsersInsert
+ON Users
+AFTER INSERT
+AS
+BEGIN
+    INSERT INTO UsersAudit
+        (
+        userID, operationType, newName, newEmail, newContact, newAge, newGender, newPassword, newUserType, newLocationID, newApproved
+        )
+    SELECT
+        ID, 'INSERT', name, email, contact#, age, gender, password, userType, locationID, approved
+    FROM
+        inserted;
+END;
+GO
+-- Trigger for UPDATE on Users
+GO
+CREATE TRIGGER trgUsersUpdate
+ON Users
+AFTER UPDATE
+AS
+BEGIN
+    INSERT INTO UsersAudit (
+        userID, operationType, operationDate, oldName, newName, oldEmail, newEmail, oldContact, newContact, oldAge, newAge, oldGender, newGender, oldPassword, newPassword, oldUserType, newUserType, oldLocationID, newLocationID, oldApproved, newApproved
+    )
+    SELECT
+        d.ID, 'UPDATE', GETDATE(), d.name, i.name, d.email, i.email, d.contact#, i.contact#, d.age, i.age, d.gender, i.gender, d.password, i.password, d.userType, i.userType, d.locationID, i.locationID, d.approved, i.approved
+    FROM
+        deleted d
+    INNER JOIN
+        inserted i ON d.ID = i.ID;
+END;
+GO
+-- Trigger for DELETE on Users
+GO
+CREATE TRIGGER trgUsersDelete
+ON Users
+AFTER DELETE
+AS
+BEGIN
+    INSERT INTO UsersAudit (
+        userID, operationType, oldName, oldEmail, oldContact, oldAge, oldGender, oldPassword, oldUserType, oldLocationID, oldApproved
+    )
+    SELECT
+        ID, 'DELETE', name, email, contact#, age, gender, password, userType, locationID, approved
+    FROM
+        deleted;
+END;
+GO
+
+-- Audit table for Events
+CREATE TABLE EventsAudit (
+    auditID INT NOT NULL IDENTITY PRIMARY KEY,
+    eventID INT NOT NULL,
+    operationType VARCHAR(50) NOT NULL,
+    operationDate DATETIME NOT NULL DEFAULT GETDATE(),
+    oldEventName VARCHAR(255),
+    newEventName VARCHAR(255),
+    oldEventStartDate DATETIME,
+    newEventStartDate DATETIME,
+    oldEventEndDate DATETIME,
+    newEventEndDate DATETIME,
+    oldEventLocation VARCHAR(255),
+    newEventLocation VARCHAR(255),
+    oldEventDescription TEXT,
+    newEventDescription TEXT,
+    oldApproved BIT,
+    newApproved BIT
+);
+-- Trigger for INSERT on Events
+GO
+CREATE TRIGGER 
+trgEventsInsert
+ON Events
+AFTER INSERT
+AS
+BEGIN
+    INSERT INTO EventsAudit (
+        eventID, operationType, newEventName, newEventStartDate, newEventEndDate, newEventLocation, newEventDescription, newApproved
+    )
+    SELECT
+        eventID, 'INSERT', eventName, eventStartDate, eventEndDate, eventLocation, eventDescription, approved
+    FROM
+        inserted;
+END;
+GO
+
+-- Trigger for UPDATE on Events
+GO
+CREATE TRIGGER trgEventsUpdate
+ON Events
+AFTER UPDATE
+AS
+BEGIN
+    INSERT INTO EventsAudit (
+        eventID, operationType, operationDate, oldEventName, newEventName, oldEventStartDate, newEventStartDate, oldEventEndDate, newEventEndDate, oldEventLocation, newEventLocation, oldEventDescription, newEventDescription, oldApproved, newApproved
+    )
+    SELECT
+        d.eventID, 'UPDATE', GETDATE(), d.eventName, i.eventName, d.eventStartDate, i.eventStartDate, d.eventEndDate, i.eventEndDate, d.eventLocation, i.eventLocation, d.eventDescription, i.eventDescription, d.approved, i.approved
+    FROM
+        deleted d
+    INNER JOIN
+        inserted i ON d.eventID = i.eventID;
+END;
+GO
+
+-- Trigger for DELETE on Events
+GO
+CREATE TRIGGER trgEventsDelete
+ON Events
+AFTER DELETE
+AS
+BEGIN
+    INSERT INTO EventsAudit (
+        eventID, operationType, oldEventName, oldEventStartDate, oldEventEndDate, oldEventLocation, oldEventDescription, oldApproved
+    )
+    SELECT
+        eventID, 'DELETE', eventName, eventStartDate, eventEndDate, eventLocation, eventDescription, approved
+    FROM
+        deleted;
+END;
+GO
