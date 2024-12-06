@@ -30,17 +30,17 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.registerID_box = new System.Windows.Forms.TextBox();
+            this.id_box = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.registerName_box = new System.Windows.Forms.TextBox();
+            this.name_box = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.registerEmail_box = new System.Windows.Forms.TextBox();
+            this.email_box = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.registerPass_box = new System.Windows.Forms.TextBox();
+            this.pass_box = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.reigsterContact_box = new System.Windows.Forms.TextBox();
+            this.contact_box = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.registerPassConfirm_box = new System.Windows.Forms.TextBox();
+            this.confirmPass_box = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.Login_Link = new System.Windows.Forms.LinkLabel();
             this.label9 = new System.Windows.Forms.Label();
@@ -79,12 +79,12 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "User ID : ";
             // 
-            // registerID_box
+            // id_box
             // 
-            this.registerID_box.Location = new System.Drawing.Point(118, 138);
-            this.registerID_box.Name = "registerID_box";
-            this.registerID_box.Size = new System.Drawing.Size(156, 22);
-            this.registerID_box.TabIndex = 4;
+            this.id_box.Location = new System.Drawing.Point(118, 138);
+            this.id_box.Name = "id_box";
+            this.id_box.Size = new System.Drawing.Size(156, 22);
+            this.id_box.TabIndex = 4;
             // 
             // label2
             // 
@@ -96,12 +96,12 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Name : ";
             // 
-            // registerName_box
+            // name_box
             // 
-            this.registerName_box.Location = new System.Drawing.Point(118, 175);
-            this.registerName_box.Name = "registerName_box";
-            this.registerName_box.Size = new System.Drawing.Size(156, 22);
-            this.registerName_box.TabIndex = 7;
+            this.name_box.Location = new System.Drawing.Point(118, 175);
+            this.name_box.Name = "name_box";
+            this.name_box.Size = new System.Drawing.Size(156, 22);
+            this.name_box.TabIndex = 7;
             // 
             // label4
             // 
@@ -113,12 +113,12 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Email :";
             // 
-            // registerEmail_box
+            // email_box
             // 
-            this.registerEmail_box.Location = new System.Drawing.Point(118, 220);
-            this.registerEmail_box.Name = "registerEmail_box";
-            this.registerEmail_box.Size = new System.Drawing.Size(156, 22);
-            this.registerEmail_box.TabIndex = 9;
+            this.email_box.Location = new System.Drawing.Point(118, 220);
+            this.email_box.Name = "email_box";
+            this.email_box.Size = new System.Drawing.Size(156, 22);
+            this.email_box.TabIndex = 9;
             // 
             // label5
             // 
@@ -130,12 +130,12 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Contact # :";
             // 
-            // registerPass_box
+            // pass_box
             // 
-            this.registerPass_box.Location = new System.Drawing.Point(459, 222);
-            this.registerPass_box.Name = "registerPass_box";
-            this.registerPass_box.Size = new System.Drawing.Size(156, 22);
-            this.registerPass_box.TabIndex = 11;
+            this.pass_box.Location = new System.Drawing.Point(459, 222);
+            this.pass_box.Name = "pass_box";
+            this.pass_box.Size = new System.Drawing.Size(156, 22);
+            this.pass_box.TabIndex = 11;
             // 
             // label6
             // 
@@ -147,12 +147,12 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Password  :";
             // 
-            // reigsterContact_box
+            // contact_box
             // 
-            this.reigsterContact_box.Location = new System.Drawing.Point(122, 260);
-            this.reigsterContact_box.Name = "reigsterContact_box";
-            this.reigsterContact_box.Size = new System.Drawing.Size(156, 22);
-            this.reigsterContact_box.TabIndex = 13;
+            this.contact_box.Location = new System.Drawing.Point(122, 260);
+            this.contact_box.Name = "contact_box";
+            this.contact_box.Size = new System.Drawing.Size(156, 22);
+            this.contact_box.TabIndex = 13;
             // 
             // label7
             // 
@@ -164,12 +164,12 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Confrim Password :";
             // 
-            // registerPassConfirm_box
+            // confirmPass_box
             // 
-            this.registerPassConfirm_box.Location = new System.Drawing.Point(459, 258);
-            this.registerPassConfirm_box.Name = "registerPassConfirm_box";
-            this.registerPassConfirm_box.Size = new System.Drawing.Size(156, 22);
-            this.registerPassConfirm_box.TabIndex = 15;
+            this.confirmPass_box.Location = new System.Drawing.Point(459, 258);
+            this.confirmPass_box.Name = "confirmPass_box";
+            this.confirmPass_box.Size = new System.Drawing.Size(156, 22);
+            this.confirmPass_box.TabIndex = 15;
             // 
             // label8
             // 
@@ -337,17 +337,17 @@
             this.Controls.Add(this.Login_Link);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.registerButton);
-            this.Controls.Add(this.registerPassConfirm_box);
+            this.Controls.Add(this.confirmPass_box);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.reigsterContact_box);
+            this.Controls.Add(this.contact_box);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.registerPass_box);
+            this.Controls.Add(this.pass_box);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.registerEmail_box);
+            this.Controls.Add(this.email_box);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.registerName_box);
+            this.Controls.Add(this.name_box);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.registerID_box);
+            this.Controls.Add(this.id_box);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -363,17 +363,17 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox registerID_box;
+        private System.Windows.Forms.TextBox id_box;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox registerName_box;
+        private System.Windows.Forms.TextBox name_box;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox registerEmail_box;
+        private System.Windows.Forms.TextBox email_box;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox registerPass_box;
+        private System.Windows.Forms.TextBox pass_box;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox reigsterContact_box;
+        private System.Windows.Forms.TextBox contact_box;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox registerPassConfirm_box;
+        private System.Windows.Forms.TextBox confirmPass_box;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.LinkLabel Login_Link;
         private System.Windows.Forms.Label label9;

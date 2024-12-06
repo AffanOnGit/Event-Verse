@@ -42,3 +42,6 @@ C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse
 C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.ResourceAndVendorManagement.resources
 C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.TicketAndSalesManagement.resources
 C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Organizer_Files.OrganizerComplaintForm.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Admin_Files.AdminDashboard.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Admin_Files.EventApproval.resources
+C:\Users\affan\Desktop\Event-Verse\Event-Verse-Application\obj\Debug\Event_Verse_Application.Admin_Files.ViewComplaint.resources
